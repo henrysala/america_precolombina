@@ -1,8 +1,8 @@
-import 'package:america_precolombina/src/utils/icons_string_utils.dart';
 import 'package:flutter/material.dart';
 
 //Propias
 import 'package:america_precolombina/src/providers/menu_provider.dart';
+import 'package:america_precolombina/src/utils/icons_string_utils.dart';
 
 class HomePage extends StatelessWidget {
   //const HomePage({Key key}) : super(key: key);
@@ -36,7 +36,9 @@ class HomePage extends StatelessWidget {
         title: Text(element['texto']),
         leading: getIcon(element['icon']),
         trailing: Icon(Icons.keyboard_arrow_right, color: Colors.amber),
-        onTap: () {},
+        onTap: () {
+          Navigator.pushNamed(context, element['ruta']);
+        },
       );
       options..add(widgetTemp)..add(Divider());
     });
