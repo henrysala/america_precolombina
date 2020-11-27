@@ -1,3 +1,5 @@
+import 'package:america_precolombina/src/pages/not_found_page.dart';
+import 'package:america_precolombina/src/routes/routes.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,6 +14,10 @@ class MyApp extends StatelessWidget {
       title: 'America Precolombina',
       debugShowCheckedModeBanner: false,
       initialRoute: '/',
+      routes: getAppRoutes(),
+      onGenerateRoute: (RouteSettings settings) {
+        return MaterialPageRoute(builder: (BuildContext context) => NotFound());
+      },
     );
   }
 }

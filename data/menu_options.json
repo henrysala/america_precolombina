@@ -1,0 +1,20 @@
+{
+    "nombreApp" : "America Precolombina",
+    "rutas"     : [
+        {
+            "ruta"  : "incas",
+            "icon"  : "incas",
+            "texto" : "incas"
+        },
+        {
+            "ruta"  : "mayas",
+            "icon"  : "mayas",
+            "texto" : "mayas"
+        },
+        {
+            "ruta"  : "aztecas",
+            "icon"  : "aztecas",
+            "texto" : "aztecas"
+        }
+    ]
+}
