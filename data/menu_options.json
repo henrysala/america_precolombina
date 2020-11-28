@@ -14,7 +14,14 @@
         {
             "ruta"  : "aztecas",
             "icon"  : "aztecas",
-            "texto" : "aztecas"
+            "texto" : "Aztecas"
+        }        
+    ],
+    "carpetas"  : [
+        {
+            "ruta"  : "aztecasUbicacion",
+            "icon"  : "ubicacion",
+            "texto" : "Ubicación"
         }
     ]
 }
