@@ -17,10 +17,10 @@
             "texto" : "Aztecas"
         }        
     ],
-    "carpetas"  : [
+    "carpetasAztecas"  : [
         {
             "ruta"  : "aztecasUbicacion",
-            "icon"  : "ubicacion",
+            "icon"  : "map",
             "texto" : "Ubicación"
         }
     ]

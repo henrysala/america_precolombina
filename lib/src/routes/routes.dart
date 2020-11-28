@@ -1,3 +1,4 @@
+import 'package:america_precolombina/src/pages/aztecas_ubicacion.dart';
 import 'package:flutter/material.dart';
 
 //Propias
@@ -11,6 +12,7 @@ Map<String, WidgetBuilder> getAppRoutes() {
     '/': (BuildContext context) => HomePage(),
     'incas': (BuildContext context) => IncasPage(),
     'mayas': (BuildContext context) => MayasPage(),
-    'aztecas': (BuildContext context) => AztecasPage()
+    'aztecas': (BuildContext context) => AztecasPage(),
+    'aztecasUbicacion': (BuildContext context) => AztecasUbicacionPage()
   };
 }

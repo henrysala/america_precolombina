@@ -4,7 +4,7 @@ final _icons = <String, IconData>{
   'incas': Icons.folder_open,
   'mayas': Icons.folder_open,
   'aztecas': Icons.folder_open,
-  'ubicacion': Icons.map
+  'map': Icons.map
 };
 
 Icon getIcon(String nameIcon) {

@@ -22,7 +22,7 @@ class _MenuProviderAztecas {
     final resp = await rootBundle.loadString('data/menu_options.json');
 
     Map dataJson = json.decode(resp);
-    options = dataJson['carpetas'];
+    options = dataJson['carpetasAztecas'];
 
     return options;
   }
