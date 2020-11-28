@@ -15,4 +15,18 @@ class _MenuProvider {
   }
 }
 
+class _MenuProviderAztecas {
+  List<dynamic> options = [];
+
+  Future<List<dynamic>> loadData() async {
+    final resp = await rootBundle.loadString('data/menu_options.json');
+
+    Map dataJson = json.decode(resp);
+    options = dataJson['carpetas'];
+
+    return options;
+  }
+}
+
 final menuProvider = new _MenuProvider();
+final menuProviderAztecas = new _MenuProviderAztecas();
