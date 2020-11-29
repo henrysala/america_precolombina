@@ -4,17 +4,17 @@
         {
             "ruta"  : "incas",
             "icon"  : "incas",
-            "texto" : "incas"
+            "texto" : "Incas"
         },
         {
             "ruta"  : "mayas",
             "icon"  : "mayas",
-            "texto" : "mayas"
+            "texto" : "Mayas"
         },
         {
             "ruta"  : "aztecas",
             "icon"  : "aztecas",
-            "texto" : "aztecas"
+            "texto" : "Aztecas"
         }
     ]
 }
