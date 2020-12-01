@@ -3,18 +3,46 @@
     "rutas"     : [
         {
             "ruta"  : "incas",
-            "icon"  : "incas",
+
+            "icon"  : "incas_symbol",
+
             "texto" : "Incas"
         },
         {
             "ruta"  : "mayas",
-            "icon"  : "mayas",
+
+            "icon"  : "mayas_symbol",
+
             "texto" : "Mayas"
         },
         {
             "ruta"  : "aztecas",
-            "icon"  : "aztecas",
+
+            "icon"  : "aztecas_symbol",
             "texto" : "Aztecas"
+        }        
+    ],
+    "carpetasAztecas"  : [
+        {
+            "ruta"  : "aztecasUbicacion",
+            "icon"  : "map",
+            "texto" : "Ubicación"
+        },
+        {
+            "ruta"  : "aztecasEstructura",
+            "icon"  : "mediation",
+            "texto" : "Estructura Social"
+        },
+        {
+            "ruta"  : "aztecasMitologia",
+            "icon"  : "brightness_4_outlined",
+            "texto" : "Mitología"
+        },
+        {
+            "ruta"  : "aztecasReto",
+            "icon"  : "sports_esports",
+            "texto" : "Actividad"
+
         }
     ]
 }
