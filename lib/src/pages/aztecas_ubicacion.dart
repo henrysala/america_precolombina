@@ -41,9 +41,9 @@ class AztecasUbicacionPage extends StatelessWidget {
                 fadeInDuration: Duration(milliseconds: 100),
                 height: 300.0,
                 width: 360.0,
-                fit: BoxFit.contain)
-            //Container(
-            //    padding: EdgeInsets.all(5.0), child: Text(element['titulo']))
+                fit: BoxFit.cover),
+            Container(
+                padding: EdgeInsets.all(5.0), child: Text(element['titulo']))
           ],
         ),
       );
