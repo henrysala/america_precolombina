@@ -3,16 +3,21 @@
     "rutas"     : [
         {
             "ruta"  : "incas",
+
             "icon"  : "incas_symbol",
+
             "texto" : "Incas"
         },
         {
             "ruta"  : "mayas",
+
             "icon"  : "mayas_symbol",
+
             "texto" : "Mayas"
         },
         {
             "ruta"  : "aztecas",
+
             "icon"  : "aztecas_symbol",
             "texto" : "Aztecas"
         }        
