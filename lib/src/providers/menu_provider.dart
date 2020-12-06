@@ -41,6 +41,34 @@ class _CardProviderUbicacionAztecas {
   }
 }
 
+class _CardProviderEstructuraAztecas {
+  List<dynamic> info = [];
+
+  Future<List<dynamic>> loadData() async {
+    final resp = await rootBundle.loadString('data/aztecas_info.json');
+
+    Map dataJson = json.decode(resp);
+    info = dataJson['estructura'];
+
+    return info;
+  }
+}
+
+class _CardProviderVestimentaAztecas {
+  List<dynamic> info = [];
+
+  Future<List<dynamic>> loadData() async {
+    final resp = await rootBundle.loadString('data/aztecas_info.json');
+
+    Map dataJson = json.decode(resp);
+    info = dataJson['vestimenta'];
+
+    return info;
+  }
+}
+
 final menuProviderHome = new _MenuProviderHome();
 final menuProviderAztecas = new _MenuProviderAztecas();
 final cardProviderUbicacionAztecas = new _CardProviderUbicacionAztecas();
+final cardProviderEstructuraAztecas = new _CardProviderEstructuraAztecas();
+final cardProviderVestimentaAztecas = new _CardProviderVestimentaAztecas();
