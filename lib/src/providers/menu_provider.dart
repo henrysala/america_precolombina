@@ -67,8 +67,22 @@ class _CardProviderVestimentaAztecas {
   }
 }
 
+class _CardProviderMitologiaAztecas {
+  List<dynamic> info = [];
+
+  Future<List<dynamic>> loadData() async {
+    final resp = await rootBundle.loadString('data/aztecas_info.json');
+
+    Map dataJson = json.decode(resp);
+    info = dataJson['mitologia'];
+
+    return info;
+  }
+}
+
 final menuProviderHome = new _MenuProviderHome();
 final menuProviderAztecas = new _MenuProviderAztecas();
 final cardProviderUbicacionAztecas = new _CardProviderUbicacionAztecas();
 final cardProviderEstructuraAztecas = new _CardProviderEstructuraAztecas();
 final cardProviderVestimentaAztecas = new _CardProviderVestimentaAztecas();
+final cardProviderMitologiaAztecas = new _CardProviderMitologiaAztecas();
