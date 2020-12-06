@@ -4,6 +4,9 @@ final _icons = <String, IconData>{
   'folder_open': Icons.folder_open,
   'map': Icons.map,
   'mediation': Icons.mediation,
+  'reduce_capacity': Icons.reduce_capacity,
+  'local_laundry_service': Icons.local_laundry_service,
+  'local_offer': Icons.local_offer,
   'brightness_4_outlined': Icons.brightness_4_outlined,
   'sports_esports': Icons.sports_esports
 };
