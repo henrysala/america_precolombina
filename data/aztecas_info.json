@@ -159,5 +159,22 @@
             "titulo"   : "Infantes",
             "texto"   : "A las niñas se les vestía de pequeñas con un vestido similar a sus madres pero a su tamaño, el cual era poco adornado, para los niños se les vestía solamente con el maxtlatl o sin nada."
         }
+    ],
+    "mitologia" : [
+        {
+            "titulo"    : "Yacatecuhtli",
+            "texto"     : "Curiosamente, los Aztecas tenían los denominados dioses viejos. Yacatecuhtli era uno de ellos. Representaba la protección para mercaderes y viajeros, y por esa razón los ciudadanos le hacían ofrendas regalándole esclavos a cambio de su bendición. Lo que destaca de esta deidad es la desproporción de su nariz, que servía como guía/indicación.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/d/db/Yacatecuhtli.jpg"
+        },
+        {
+            "titulo"    : "Quetzalcóatl",
+            "texto"     : "Era un poco el dios del todo: la vida, fertilidad, sabiduría, del día y la noche, los vientos. Es seguramente uno de las deidades más relevantes de los Aztecas por todo lo que representaba. Es una especie de serpiente con plumas y a la vez con forma humana.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Quetzalcoatl_magliabechiano.jpg/325px-Quetzalcoatl_magliabechiano.jpg"
+        },
+        {
+            "titulo"    : "Coatlicue",
+            "texto"     : "Al igual que su antecesor, Coatlicue tenía forma de serpiente (ésta sí de manera integral) con cuatro manos y tres cabezas. Ella representa la vida y la muerte a la vez, por lo que se la considera la diosa de todos los dioses, así como la guía espiritual del renacimiento.",
+            "imagen"    : "https://www.milenio.com/uploads/media/2017/05/09/coatlicue-la-de-la-falda.jpeg"
+        }
     ]
 }

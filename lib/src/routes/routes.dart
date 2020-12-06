@@ -1,4 +1,3 @@
-import 'package:america_precolombina/src/pages/aztecas/aztecas_vestimenta.dart';
 import 'package:flutter/material.dart';
 
 //Propias
@@ -9,6 +8,8 @@ import 'package:america_precolombina/src/pages/aztecas/aztecas_page.dart';
 import 'package:america_precolombina/src/pages/incas/ubicacion.dart';
 import 'package:america_precolombina/src/pages/aztecas/aztecas_estructura.dart';
 import 'package:america_precolombina/src/pages/aztecas/aztecas_ubicacion.dart';
+import 'package:america_precolombina/src/pages/aztecas/aztecas_mitologia.dart';
+import 'package:america_precolombina/src/pages/aztecas/aztecas_vestimenta.dart';
 
 Map<String, WidgetBuilder> getAppRoutes() {
   return <String, WidgetBuilder>{
@@ -22,7 +23,7 @@ Map<String, WidgetBuilder> getAppRoutes() {
     'aztecasUbicacion': (BuildContext context) => AztecasUbicacionPage(),
     'aztecasEstructura': (BuildContext context) => AztecasEstructuraPage(),
     'aztecasVestimenta': (BuildContext context) => AztecasVestimentaPage(),
-    //'aztecasMitologia': (BuildContext context) => AztecasMitologiaPage(),
+    'aztecasMitologia': (BuildContext context) => AztecasMitologiaPage(),
     //'aztecasReto': (BuildContext context) => AztecasRetoPage(),
   };
 }
