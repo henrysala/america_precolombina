@@ -4,8 +4,16 @@ final _icons = <String, IconData>{
   'folder_open': Icons.folder_open,
   'map': Icons.map,
   'mediation': Icons.mediation,
+  'reduce_capacity': Icons.reduce_capacity,
+  'local_laundry_service': Icons.local_laundry_service,
+  'local_offer': Icons.local_offer,
   'brightness_4_outlined': Icons.brightness_4_outlined,
-  'sports_esports': Icons.sports_esports
+  'sports_esports': Icons.sports_esports,
+
+  //Mayas
+  'gps_fixed': Icons.gps_fixed,
+  'account_tree': Icons.account_tree,
+  'videogame_asset': Icons.videogame_asset
 };
 
 final _symbols = <String, CircleAvatar>{
@@ -32,4 +40,11 @@ Icon getIcon(String nameIcon) {
 
 CircleAvatar getSymbol(String nameSymbol) {
   return _symbols[nameSymbol];
+}
+
+Icon getIconMayas(String nameIcon) {
+  return Icon(
+    _icons[nameIcon],
+    color: Colors.redAccent,
+  );
 }

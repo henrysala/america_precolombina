@@ -28,39 +28,24 @@
     ],
     "ubicacion" : [
         {
-            "titulo"    : "Ubicación del Imperio azteca",
-            "texto"     : "\nLos Incas se establecieron en México Tenochtitlan en el centro del Valle de México, expandiendo su control hacia ciudades-estado ubicadas en los actuales estados de México, Morelos, Veracruz, Guerrero, Puebla, Oaxaca; la costa de Chiapas, Hidalgo, y parte de Guatemala.",
-            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Aztec_Empire_-_es.svg/800px-Aztec_Empire_-_es.svg.png"
+            "titulo"    : "Ubicación del Imperio Inca",
+            "texto"     : "El imperio Inca surgió en el Valle de Cuzco con el establecimiento allí de un grupo étnico que emigró hacia el año 1100 a.C, posiblemente proveniente del altiplano de Bolivia. El imperio Inca ocupó lo que actualmente es Perú, Ecuador, Colombia, el norte y centro de Chile, el oeste de Bolivia y el noreste de Argentina.\n\n Los Incas construyeron poderoso imperio. El Imperio Incaico logró su mayor expansión territorial a fines del siglo XV. Esto lo lograron al dominar –mediante guerras de conquista- a los pueblos de otras zonas. El imperio (Tahuantisuyo) estaba dividido en cuatro regiones. Cada región, a su vez, se subdividía en provincias.\n\n Al frente del Imperio estaba el Inca o emperador. En una segunda línea de mando, estaban los gobernadores o curacas, que dirigían las zonas conquistadas.\n\n Al morir el Inca, los gobernadores de las cuatro regiones se reunían en un consejo. La función del consejo era designar al sucesor entre los hijos legítimos del Inca.",
+            "imagen"    : "https://enciclopediadehistoria.com/wp-content/uploads/2019/05/cultura-inca.jpg"
         },
         {
-            "titulo"    : "Cuauhtémoc",
-            "texto"     : "\nCuauhtémoc(Tenochtitlán, hoy Ciudad de México, 1496 - Yucatán, actual Honduras, 1525) Último emperador azteca, llamado por los españoles Guatimocín. Sucesor de Moctezuma II y de Cuitláhuac, defendió tenazmente la ciudad de Tenochtitlán, capital del Imperio azteca, del asedio de las tropas españolas al mando de Hernán Cortés. La caída de la ciudad y la captura y posterior ejecución de Cuauhtémoc puso fin a una de las más brillantes civilizaciones precolombinas.",
-            "imagen"    : "https://www.biografiasyvidas.com/biografia/c/fotos/cuauhtemoc_2.jpg"
+            "titulo"    : "Pachacútec",
+            "texto"     : "Unos de los gobernantes incas más destacados.Como parte de su visión de estadista y caudillo guerrero, conquistó muchas etnias y estados, destacando su conquista del Collao, que acrecentó el prestigio de los incas y particularmente de Pachacútec, quien por la notable expansión de sus dominios fue considerado un excepcional líder, dando vida a historias épicas e himnos gloriosos en tributo a sus hazañas. Numerosos curacas no dudaban en reconocer sus destrezas e identificarlo como Hijo del Sol.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/PachacutecIXinca.jpg/245px-PachacutecIXinca.jpg"
         },
         {
-            "titulo"    : "Teotihuacán",
-            "texto"     : "\nEs uno de los mayores complejos arqueológicos de México, ubicado a unos 50 km. de la capital. El origen de la ciudad que según los Incas fue fundada por los Dioses es todavía desconocido. Se calcula que surgió antes del 500 a.C. pero fueron los Incas quienes alcanzaron su máximo esplendor y fundaron Tenochtitlán, la fabulosa ciudad sobre la cual los españoles levantaron México. Actualmente se puede visitar solo una pequeña parte de esta localidad. Entre los monumentos Incas más importantes destacan la Pirámide del Sol y de la Luna, que enmarca la Calzada de los Muertos, el eje principal de las ruinas, además del Templo de Quetzalcóatl. Las escaleras de acceso a las pirámides requieren un cierto esfuerzo, pero regalan a cambio unas vistas excepcionales sobre Teotihuacán.",
-            "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Teotihuac%C3%A1n-1024x683.jpg"
+            "titulo"    : "Machu Picchu",
+            "texto"     : "Machu Picchu ha sido por mucho tiempo uno de los más inquietantes enigmas del pasado incaico. Se ubica a algunos cientos de metros sobre la margen izquierda del río Vilcanota o Urubamba.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Peru_Machu_Picchu_Sunrise_2.jpg/800px-Peru_Machu_Picchu_Sunrise_2.jpg"
         },
         {
-            "titulo"    : "Tlateloco",
-            "texto"     : "\nFue el centro comercial más importante del México prehispánico. Entre los principales monumentos Incas está el Templo Mayor, idéntico en medidas, orientación y arquitectura al Templo Mayor de Tenayuca y Tenochtitlan. Presenta 4 cuerpos piramidales escalonados y superpuestos. En la parte superior se erguían los altares para adorar a cada deidad.",
-            "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Tlatelolco-1024x683.jpg"
-        },
-        {
-            "titulo"    : "Cuicuilco",
-            "texto"     : "\nEs uno de los sitios arqueológicos más antiguos de México. Ubicado a pocos minutos de la Ciudad de México, en un parque ecológico, el sitio alberga una pirámide circular, parcialmente enterrada debido a una erupción volcánica. Como en el caso de Teotihuacán, sus orígenes se remontan al año 800 a. C. La erupción del cercano volcán Xitle arrasó la ciudad en el 200 a. C., pero fue reconstruida a partir del siglo XIII. Entre los principales monumentos Incas están las ruinas de la Pirámide de Cuicuilco, ubicadas en el centro de la colina. Esta impresionante pirámide, que tiene 5 niveles y mide 18 metros de altura, fue utilizada para realizar ceremonias religiosas.",
-            "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Cuicuilco-1024x683.jpg"
-        },
-        {
-            "titulo"    : "Malinalco",
-            "texto"     : "\nEs un pueblo mágico ubicado en el sur del Estado de México. Fue un lugar de gran importancia religiosa antes y después de la conquista española. Para llegar a la parte más alta del Cerro de los Ídolos, el centro de la zona arqueológica de Malinalco, hay que subir cerca de 400 escalones. Desde la cima se puede admirar el santuario donde se formaban los guerreros Águila y Jaguar de los Incas, y al mismo tiempo admirar la hermosa vista panorámica de este pequeño pueblo rodeado de montañas. Este centro ceremonial, uno de los más importantes para los Incas, presenta una peculiaridad. El templo principal fue tallado directamente en la piedra de la montaña, razón por la que es comparado con los templos de Ellora en el sur de la India, la ciudad de Petra y los templos monolíticos de Abú-Simbel de Egipto.",
-            "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Malinalco-1024x683.jpg"
-        },
-        {
-            "titulo"    : "Pirámides de Xochicalco",
-            "texto"     : "\nUbicadas en el municipio de Miacatlan en Morelos, a 38 km. de Cuernavaca, han sido declaradas Patrimonio de la Humanidad por la Unesco en 1999. El nombre de Xochicalco proviene de la lengua náhuatl y significa ‘Lugar de la casa de las Flores’. En la a Plaza Central todavía se conserva la Gran Pirámide, con 20 altares redondos, y la Pirámide de la Serpiente Emplumada, con relieves en sus 4 lados. Hoy se puede visitar la residencia de los soberanos de esta antigua ciudad, conocida como la Acrópolis. También vale la pena conocer el Templo de las Estelas, donde los arqueólogos descubrieron unas lápidas relacionadas con Quetzalcóatl.",
-            "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Templo-da-serpente-emplumada-em-Xochicalco-1024x683.jpg"
+            "titulo"    : "Pisac",
+            "texto"     : "Písac (también Pisaq) está ubicado a 33 km de la ciudad del Cuzco. Su sitio arqueológico es uno de los más importantes del Valle Sagrado de los Incas. La arquitectura de Písac es mestiza, construida sobre restos indígenas por el virrey Francisco de Toledo.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/a/ad/Ollantaytambo.jpg"
         }
     ]
 }

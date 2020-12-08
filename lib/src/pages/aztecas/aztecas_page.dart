@@ -9,7 +9,7 @@ class AztecasPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Aztecas - Ubicación'),
+        title: Text('Imperio Azteca'),
       ),
       body: _list(),
     );

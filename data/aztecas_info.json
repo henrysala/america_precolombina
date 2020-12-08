@@ -1,0 +1,190 @@
+{
+    "rutasAztecas"  : [
+        {
+            "ruta"  : "aztecasUbicacion",
+            "icon"  : "map",
+            "texto" : "Ubicación del imperio"
+        },
+        {
+            "ruta"  : "aztecasEstructura",
+            "icon"  : "reduce_capacity",
+            "texto" : "Estructura Social"
+        },
+        {
+            "ruta"  : "aztecasVestimenta",
+            "icon"  : "local_laundry_service",
+            "texto" : "Vestimenta"
+        },
+        {
+            "ruta"  : "aztecasMitologia",
+            "icon"  : "brightness_4_outlined",
+            "texto" : "Mitología"
+        },
+        {
+            "ruta"  : "aztecasReto",
+            "icon"  : "sports_esports",
+            "texto" : "Actividad"
+        }
+    ],
+
+    "ubicacion" : [
+        {
+            "titulo"    : "Ubicación del Imperio azteca",
+            "texto"     : "\nLos aztecas se establecieron en México Tenochtitlan en el centro del Valle de México, expandiendo su control hacia ciudades-estado ubicadas en los actuales estados de México, Morelos, Veracruz, Guerrero, Puebla, Oaxaca; la costa de Chiapas, Hidalgo, y parte de Guatemala.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Aztec_Empire_-_es.svg/800px-Aztec_Empire_-_es.svg.png"
+        },
+        {
+            "titulo"    : "Cuauhtémoc",
+            "texto"     : "\nCuauhtémoc(Tenochtitlán, hoy Ciudad de México, 1496 - Yucatán, actual Honduras, 1525) Último emperador azteca, llamado por los españoles Guatimocín. Sucesor de Moctezuma II y de Cuitláhuac, defendió tenazmente la ciudad de Tenochtitlán, capital del Imperio azteca, del asedio de las tropas españolas al mando de Hernán Cortés. La caída de la ciudad y la captura y posterior ejecución de Cuauhtémoc puso fin a una de las más brillantes civilizaciones precolombinas.",
+            "imagen"    : "https://www.biografiasyvidas.com/biografia/c/fotos/cuauhtemoc_2.jpg"
+        },
+        {
+            "titulo"    : "Teotihuacán",
+            "texto"     : "\nEs uno de los mayores complejos arqueológicos de México, ubicado a unos 50 km. de la capital. El origen de la ciudad que según los aztecas fue fundada por los Dioses es todavía desconocido. Se calcula que surgió antes del 500 a.C. pero fueron los aztecas quienes alcanzaron su máximo esplendor y fundaron Tenochtitlán, la fabulosa ciudad sobre la cual los españoles levantaron México. Actualmente se puede visitar solo una pequeña parte de esta localidad. Entre los monumentos aztecas más importantes destacan la Pirámide del Sol y de la Luna, que enmarca la Calzada de los Muertos, el eje principal de las ruinas, además del Templo de Quetzalcóatl. Las escaleras de acceso a las pirámides requieren un cierto esfuerzo, pero regalan a cambio unas vistas excepcionales sobre Teotihuacán.",
+            "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Teotihuac%C3%A1n-1024x683.jpg"
+        },
+        {
+            "titulo"    : "Tlateloco",
+            "texto"     : "\nFue el centro comercial más importante del México prehispánico. Entre los principales monumentos aztecas está el Templo Mayor, idéntico en medidas, orientación y arquitectura al Templo Mayor de Tenayuca y Tenochtitlan. Presenta 4 cuerpos piramidales escalonados y superpuestos. En la parte superior se erguían los altares para adorar a cada deidad.",
+            "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Tlatelolco-1024x683.jpg"
+        },
+        {
+            "titulo"    : "Cuicuilco",
+            "texto"     : "\nEs uno de los sitios arqueológicos más antiguos de México. Ubicado a pocos minutos de la Ciudad de México, en un parque ecológico, el sitio alberga una pirámide circular, parcialmente enterrada debido a una erupción volcánica. Como en el caso de Teotihuacán, sus orígenes se remontan al año 800 a. C. La erupción del cercano volcán Xitle arrasó la ciudad en el 200 a. C., pero fue reconstruida a partir del siglo XIII. Entre los principales monumentos aztecas están las ruinas de la Pirámide de Cuicuilco, ubicadas en el centro de la colina. Esta impresionante pirámide, que tiene 5 niveles y mide 18 metros de altura, fue utilizada para realizar ceremonias religiosas.",
+            "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Cuicuilco-1024x683.jpg"
+        },
+        {
+            "titulo"    : "Malinalco",
+            "texto"     : "\nEs un pueblo mágico ubicado en el sur del Estado de México. Fue un lugar de gran importancia religiosa antes y después de la conquista española. Para llegar a la parte más alta del Cerro de los Ídolos, el centro de la zona arqueológica de Malinalco, hay que subir cerca de 400 escalones. Desde la cima se puede admirar el santuario donde se formaban los guerreros Águila y Jaguar de los Aztecas, y al mismo tiempo admirar la hermosa vista panorámica de este pequeño pueblo rodeado de montañas. Este centro ceremonial, uno de los más importantes para los aztecas, presenta una peculiaridad. El templo principal fue tallado directamente en la piedra de la montaña, razón por la que es comparado con los templos de Ellora en el sur de la India, la ciudad de Petra y los templos monolíticos de Abú-Simbel de Egipto.",
+            "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Malinalco-1024x683.jpg"
+        },
+        {
+            "titulo"    : "Pirámides de Xochicalco",
+            "texto"     : "\nUbicadas en el municipio de Miacatlan en Morelos, a 38 km. de Cuernavaca, han sido declaradas Patrimonio de la Humanidad por la Unesco en 1999. El nombre de Xochicalco proviene de la lengua náhuatl y significa ‘Lugar de la casa de las Flores’. En la a Plaza Central todavía se conserva la Gran Pirámide, con 20 altares redondos, y la Pirámide de la Serpiente Emplumada, con relieves en sus 4 lados. Hoy se puede visitar la residencia de los soberanos de esta antigua ciudad, conocida como la Acrópolis. También vale la pena conocer el Templo de las Estelas, donde los arqueólogos descubrieron unas lápidas relacionadas con Quetzalcóatl.",
+            "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Templo-da-serpente-emplumada-em-Xochicalco-1024x683.jpg"
+        }
+    ],
+
+    "estructura"    : [
+        {   "titulo"    : "Estructura",        
+            "texto"     : "\nEn la siguiente imagen se muestra de manera sencilla y con los nombre originarios en náhuatl los distintos estratos sociales de la sociedad mexica.",
+            "imagen"    : "https://masdemx.com/wp-content/uploads/2016/10/piramide-social-azteca-1.jpg"
+        },
+        {   "titulo"    : "Huey tlatoani",
+            "texto"     : "\nLa palabra viene del náhuatl Huēyi (grande) Tlahtoāni (orador) y significa gran gobernante, gran orador. Era el máximo gobernante, con funciones tanto militares como religiosas. El huey tlatoani presidía el consejo supremo o tlatocán, donde participaban los jefes o tlatoani de las ciudades más importantes, las máximas autoridades militares y delegados de algunos calpullis. \nEl consejo tomaba las decisiones políticas, militares y administrativas y designaba al nuevo huey tlatoani cuando se producía la muerte del soberano. En el territorio que se encontraba bajo jurisdicción azteca, especialmente en los focos rebeldes, había gobernadores militares apoyados por pequeñas guarniciones que mantenían el orden y aseguraban la recaudación de los tributos.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Moctezuma_II.jpg/220px-Moctezuma_II.jpg"
+        },
+        {   "titulo"    : "Pipiltin",
+            "texto"     : "\nEra un tipo de nobleza cuya descendencia venía de los toltecas. Poseían tierras y esclavos para trabajarlas. Los sacerdotes de mayor rango y los guerreros de mayor categoría formaban parte de los pipiltin. ",
+            "imagen"    : "https://image.slidesharecdn.com/exposicion-150515145649-lva1-app6892/95/exposicion-23-638.jpg?cb=1431701946"
+        },
+        {   "titulo"    : "Pochtecas",
+            "texto"     : "\nSu labor era importantísima pues gracias a ella los mercados (como el de Tlatelolco) proveeían de productos traídos incluso de Guatemala. Eran gente sumamente polémica en la sociedad de su época, ya que no solo eran comerciantes, sino también espías del mismísimo tlatoani; sin mencionar de que eran una sociedad de alto prestigio que se distinguía de los mercaderes comunes o tlacemananqui. \nEran gente sumamente polémica en la sociedad de su época, ya que no solo eran comerciantes, sino también espías del mismísimo tlatoani; sin mencionar de que eran una sociedad de alto prestigio que se distinguía de los mercaderes comunes o tlacemananqui.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Pochtecas_con_su_carga.JPG/230px-Pochtecas_con_su_carga.JPG"
+        },
+        {   "titulo"    : "Macehualtin",
+            "texto"     : "\nLa expansión del imperio azteca afectó en gran medida a la organización social. Mientras la nobleza, formada por los tlatoani de las principales ciudades, los guerreros y sacerdotes, fue acumulando cada vez más tierras y riquezas, la gente común o macehualtin siguió desempeñándose fundamentalmente como mano de obra en la agricultura y la artesanía y debía pagar tributos al imperio. Dentro de la clase dirigente comenzaron a jugar un papel muy importante los tecuhtli o señores, quienes gozaban de un gran prestigio logrado a raíz de acciones sobresalientes. Estos ejercieron funciones militares, judiciales y administrativas y recibían tierras y servidores como recompensa. Debían estar siempre disponibles para cuando el soberano los necesitara. \nLos denominados macehualtin conformaban a la mayor parte del pueblo azteca. Aparte de los labradores, encontramos en este grupo a artesanos y servidores públicos. Si bien los macehualtin tenían la posibilidad de mejorar su situación social, destacándose en la guerra o el comercio, la movilidad dentro del imperio fue muy reducida.",
+            "imagen"    : "https://image.slidesharecdn.com/aztecaspower-130818164053-phpapp01/95/aztecas-power-6-638.jpg?cb=1376844101"
+        },
+        {   "titulo"    : "Calpulli",
+            "texto"     : "\nLa unidad social básica en el mundo azteca era el calpulli, conformado por familias de macehualtin que tenían antepasados comunes y compartían un territorio subdividido en parcelas comunales. Al frente de cada calpulli estaba el calpullec, electo de por vida por los habitantes y en conformidad con el soberano azteca. Su principal tarea era el registro de todas las tierras de la comunidad y el control de las labores de cultivo.",
+            "imagen"    : "http://www7.uc.cl/sw_educ/historia/conquista/parte1/medios/aztecas/ef11.jpg"
+        },
+        {   "titulo"    : "Tlacotin",
+            "texto"     : "\nLos esclavos llamados tlacotin ocuparon la jerarquía inferior de la sociedad azteca. La mayoría eran esclavos debio a las guerras, otros por cometer delitos graves y una pequeña parte debido a las deudas que no pudieron cancelar cayeron en esa condición de servidumbre.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Collared.jpg/200px-Collared.jpg"
+        },
+        {   "titulo"    : "Tlatlacotin",
+            "texto"     : "\nLos tlatlacotin formaban el estrato social mas bajo, compuesto generalmente por los PRISIONEROS DE GUERRA que eran condenados o desterrados. A cambio de casa y comida debían ser obedientes a sus amos. Aunque eso no significaba que eran esclavos, pues podían recuperar su libertad y poseer bienes..",
+            "imagen"    : "https://i.pinimg.com/originals/bc/73/9f/bc739f61e86bad84ede1a053df6e09d3.jpg"
+        }
+    ],
+
+    "vestimenta"    : [
+        {
+            "titulo"    : "Vestido femenino",
+            "imagen1"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/COM_V1_D214_Malinal_of_Painalla.png/260px-COM_V1_D214_Malinal_of_Painalla.png",
+            "descripcion1"   : "Representación Ilustrativa de Vestimenta Mexica Femenina",
+            "imagen2"   : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Vestimenta_Femenina_Mexica.svg/500px-Vestimenta_Femenina_Mexica.svg.png",
+            "descripcion2"  : "Vestimenta básica de la mujer antes de la conquista.",
+            "imagen3"   : "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/COM_V1_D254_Women_gifted_to_Cort%C3%A9s_by_the_Cacique_of_Cempolla.png/520px-COM_V1_D254_Women_gifted_to_Cort%C3%A9s_by_the_Cacique_of_Cempolla.png",
+            "descripcion3"  : "Representación ilustrativa del vestido femenino antes de la Conquista.",
+            "texto" : "Los cronistas cuentan que las mujeres mexicas vestían básicamente dos prendas: una falda larga llamada cueitl (llamada modernamente enredo) y una camisa larga y holgada llamada huepilli (llamada modernamente huipil o hipil). \nDel cueitl se menciona que se hacía con una tela enrollada alrededor del cuerpo y no con un cono como modernamente se hace; esta se sujetaba a la cintura con un cinturón largo de tela enrollado alrededor de la cintura y que rara vez se veía. \nEl huepilli, por su parte, consistía en una camisa larga con un cuello en ve o cuadrado. Esta camisa caía hasta las rodillas, era hecha con una sola tela larga cosida a los lados, por lo que las mangas eran huecos en la doblez. Ambas prendas eran adornadas, dependiendo del tiempo empleado era la complejidad y riqueza de estas, ya que en su mayoría eran de fabricación propia de cada mujer. Aunque por la lógica de la capacidad económica, la de las pipilas era mucho más rica y elaborada con telas finas de algodón. Por lo que se conoce, no existía un uso reglamentado de las prendas y todas las mujeres podían llevarlo como quisieran. \nPara las épocas de frío usaban una especie de chaleco de tela gruesa o piel burdamente hecha que se colocaba bajo el huepilli."
+        },
+        {
+            "titulo"    : "Vestido masculino",
+            "imagen1"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Vestimenta_Masculina_Mexica.svg/500px-Vestimenta_Masculina_Mexica.svg.png",
+            "descripcion1"   : "Variaciones de la vestimenta masculina antes de la Conquista.",
+            "imagen2"   : "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/COM_V1_D234_A_Homily_by_Father_Olmedo.png/450px-COM_V1_D234_A_Homily_by_Father_Olmedo.png",
+            "descripcion2"  : "Diferentes tipos de vestido masculino en base a la jerarquización social.",
+            "imagen3"   : "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/COM_V2_D180_The_Prince_Ixtlilxochitl.png/250px-COM_V2_D180_The_Prince_Ixtlilxochitl.png",
+            "descripcion3"  : "El Príncipe Ixtlilxochitl, vistiendo como noble.",
+            "texto" : "Del vestido de los hombres mexicas se cuenta que vestían básicamente un taparrabo llamado maxtlatl(fig. a), el cual era hecho con una tela larga que se pasaba inicialmente entre las piernas para luego ser arrollada en la cintura, dejando tanto por detrás como por delante un pedazo de tela que ocultaba los genitales, algo similar a lo que hoy en día usan los luchadores de sumo en el Japón. Constituía un indicador de civilización entre los mexicas heredado de las costumbres toltecas. Esta prenda alejaba a quien la portaba de la vida salvaje, razón por la cual los nahuas se escandalizaban ante la costumbre huasteca y tarasca de no usar maxtlatl. Ellos criticaban y despreciaban a otros grupos que no sentían vergüenza al mostrar sus genitales, pues esas costumbres se oponían a su ideal de conducta y vestido que querían imponer. Los mexicas explicaban que los habitantes de Michoacán eran llamados tarascos, “porque traían los miembros genitales de pierna en pierna y sonando, especialmente cuando corrían” . Para cubrir el resto del cuerpo usaban una tela rectangular llamada tilmatli (llamada modernamente tilma), la cual se llevaba colgada como una especie de capa de tres maneras distintas. \nFig. b) Lateralmente, anudada sobre un hombro y pasada por debajo de la axila del otro brazo, la cual parece que fue la más común de todas, ya que permitía tener libres ambos brazos. También usaban capa. \nFig. d) Hacia atrás, anudada bajo el cuello como una especie de capa. Esta forma era la característica de las clases gobernante y sacerdotal. \nFig. e) Lateralmente, anudada sobre un hombro y pasada por encima del otro hombro, parece ser la menos común, ya que no permitiría el uso de ambos brazos al cubrir uno. \nSu uso en general era de abrigo y no se sabe, como popularmente se cree, si servía para cargar cosas. Entre los macehuales, ambas prendas se confeccionaban con telas de fibra de maguey y no llevaban adornos, aunque si habían logrado capturar en la guerra, se les permitía usar telas de algodón en sus prendas. En la clase de los pipiles, las prendas eran hechas básicamente de algodón y ambos podían estar profusamente adornados con bordados, tejidos, incrustaciones de piedra, plumas o pieles, sirviendo además como distintivo social, ya que su color y decorado podían corresponder con un cargo o un honor. En forma básica, si el tilmatli se llevaba hasta los tobillos (Fig. c), era indicativo de pertenecer a los pipiles o haber ganado el privilegio por sus acciones en la guerra. Por esto la guardia de la ciudad si veía a una persona que no parecía tener este privilegio, le detenía y le pedía que descubriera sus pantorrillas para ver si tenía las cicatrices características del guerrero al cual se le permitía portarla de esta manera. Si no, era seriamente castigado con azotes; los macehuales, por su parte, la portaban hasta las rodillas. En las épocas de frío, al parecer se llevaba un tilmatli de tela más gruesa y mayor anchura con el cual se envolvían. Al sentarse los hombres, movían al frente el tilmatli de tal forma que cubriera sus piernas, como se ve en muchos códices."
+        },
+        {
+            "titulo"    : "Vestido militar",
+            "imagen1"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/COM_V1_D376_Aztec_Caciques_coming_to_the_emperor.png/450px-COM_V1_D376_Aztec_Caciques_coming_to_the_emperor.png",
+            "descripcion1"   : "Representación ilustrativa del vestido militar antes de la Conquista.",
+            "imagen2"   : "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/COM_V1_D377_Aztec_Caciques_coming_to_the_emperor.png/450px-COM_V1_D377_Aztec_Caciques_coming_to_the_emperor.png",
+            "descripcion2"  : "Representación ilustrativa del vestido militar antes de la conquista.",
+            "imagen3"   : "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Guerreros_Aztecas.jpg/270px-Guerreros_Aztecas.jpg",
+            "descripcion3"  : "Representación ilustrativa de guerreros mexicas con su armamento y uniforme acorde a cada rango.",
+            "texto" : "En la época prehispánica, los guerreros usaban básicamente la misma vestimenta sencilla, el maxtlatl y tilmatli, aunque con algunos arreglos, ya que con la misma tela del maxtlatl o con un pedazo de tela extra hacían una especie de concha para proteger sus genitales, la cual era además adornada. Los grupos distinguidos de guerreros podían, por su parte, usar una especie de mono (Fig. f) que les cubría todo el cuerpo y que era adornado con dibujos, además de usar cascos o sombreros en forma de cabezas de animales o conos, los cuales los distinguían de los demás. En la espalda portaban una reja, como una moderna mochila sobre la cual se colocaban diferentes arreglos de papel, pluma o telas que los distinguían de los demás y les daban un aspecto más apabullante. Un vestido que sí era característico de los guerreros, era un chaleco acolchonado de algodón, con el cual se podían proteger de los cortes hechos con las navajas de la macana. En algunas clases altas este era hecho con piel y conchas marinas, lo que lo hacía más vistoso y protector. \nPara el caso de las mujeres no se conoce que llevaran alguna actividad militar y que por esto llevaran alguna distinción."
+        }
+
+    ],
+    
+    "pinta"  : [
+        {
+            "titulo"    : "Peinado femenino",
+            "texto"   : "Los cabellos eran largos y oscuros, los remataban sobre la frente con dos protuberancias que recuerdan cuernos truncados. Mientras las mujeres de vida licenciosa llamadas auiani los llevaban sueltos, ambas los ennegrecían con lodo o una planta llamada xiuhquílitl que le daba un tono morado."    
+        },
+        {
+            "titulo"   : "Adornos femeninos",
+            "texto"   : "Las mujeres solían maquillarse y arreglarse modestamente, con aretes, telas o lazos de colores, algunos collares, pulseras, brazaletes y anillos en los tobillos, que dependían en riqueza con su capacidad económica, se menciona que en lugares distantes a la ciudad usaban un pañuelo sobre la cabeza, en ocasiones especiales se pintaban con colores ocre o amarillos."
+        },
+        {
+            "titulo"    : "Peinado masculino",
+            "texto"   : "De los hombres que no estaban en servicio militar se conoce que llevaban los cabellos largos al hombro con un fleco al frente, todo cortado con navaja. Pero los que estaban en capacidad de guerrear llevaban un arreglo distintivo que dependía de su grado. Entre los cero y los nueve años se les rasuraba toda la cabeza. A los diez se les dejaba crecer un mechón de pelo en la nuca llamada mocuexpaltia. A los quince años se le llamaba a este peinado cuexpalchicácpol ya que era larga la cabellera, si en estas edades eran capaces de capturar a un enemigo, ya sea solos o con la compañía de alguien se les cortaba ese mechón como símbolo de su logro. Pero se le dejaba crecer un mechón sobre la sien derecha que con el tiempo cubría la oreja. Dependiendo del número de cautivos que hacían se les recompensaba con diferentes adornos a los cuales tenían patente de uso."
+        },
+        {
+            "titulo"   : "Adornos masculinos",
+            "texto"   : "Los hombres no solían arreglarse y si se usaban orejeras, collares, pulseras, brazaletes y tocados era debido a algún distintivo administrativo, social o guerrero, el maquillaje era una forma muy característica de los sacerdotes y los guerreros a los cuales se les distinguía; Por ejemplo, se menciona que cuando un joven capturaba por sí solo se le permitía pintarse el cuerpo y las sienes de amarillo y la cara de rojo, como distintivo de su valentía."
+        },
+        {
+            "titulo"   : "Calzado",
+            "texto"   : "El uso de calzado fue extraño y reservado a momentos de fiesta, ya que entre los mexicas se usaban sandalias hechas de caña de petate, el cual no dura mucho bajo el pie, se cree popularmente que existían calzados de cuero, pero la técnica de curado de la piel que conocían los mexicas era muy básica y producía cueros esponjosos que se gastaban con rapidez, por lo que de este material lo poseían los principales señores, los cuales los adornaban con plumas, laminas de oro y telas pintadas."
+        },
+        {
+            "titulo"   : "Sacerdotes",
+            "texto"   : "Para ambos tipos era su vestido rico en detalles y finos, pero se caracterizaban por vestir de acuerdo al culto que estaban dedicados, de tal manera que algunos vestían como lo haría el dios, por lo que algunos se les encontraba en una situación poco higiénica, por ejemplo los dedicados a los sacrificios no se lavaban la sangre que les caía la cual de seguro se descomponía sobre su cuerpo y tenían los cabellos sucios y llenos de sangre."
+        },
+        {
+            "titulo"   : "Infantes",
+            "texto"   : "A las niñas se les vestía de pequeñas con un vestido similar a sus madres pero a su tamaño, el cual era poco adornado, para los niños se les vestía solamente con el maxtlatl o sin nada."
+        }
+    ],
+    
+    "mitologia" : [
+        {
+            "titulo"    : "Yacatecuhtli",
+            "texto"     : "Curiosamente, los Aztecas tenían los denominados dioses viejos. Yacatecuhtli era uno de ellos. Representaba la protección para mercaderes y viajeros, y por esa razón los ciudadanos le hacían ofrendas regalándole esclavos a cambio de su bendición. Lo que destaca de esta deidad es la desproporción de su nariz, que servía como guía/indicación.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/d/db/Yacatecuhtli.jpg"
+        },
+        {
+            "titulo"    : "Quetzalcóatl",
+            "texto"     : "Era un poco el dios del todo: la vida, fertilidad, sabiduría, del día y la noche, los vientos. Es seguramente uno de las deidades más relevantes de los Aztecas por todo lo que representaba. Es una especie de serpiente con plumas y a la vez con forma humana.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Quetzalcoatl_magliabechiano.jpg/325px-Quetzalcoatl_magliabechiano.jpg"
+        },
+        {
+            "titulo"    : "Coatlicue",
+            "texto"     : "Al igual que su antecesor, Coatlicue tenía forma de serpiente (ésta sí de manera integral) con cuatro manos y tres cabezas. Ella representa la vida y la muerte a la vez, por lo que se la considera la diosa de todos los dioses, así como la guía espiritual del renacimiento.",
+            "imagen"    : "https://www.milenio.com/uploads/media/2017/05/09/coatlicue-la-de-la-falda.jpeg"
+        },
+        {
+            "titulo"    : "Mito: Quetzalcóatl y el maiz",
+            "texto"     : "Cuenta la leyenda que antes de la llegada del maíz, el pueblo solamente comía raíces y animales que cazaban. Sin embargo, se sospechaba sobre la existencia de una planta dorada, que se escondía detrás de unas altas montañas que enmarcaban la ciudad. \nLos indígenas pedían a los dioses la separación de las montañas, para que se abriera el paso y los recolectores pudieran ir a recoger los granos de maíz. No obstante, los dioses no pudieron lograrlo. Es por esto que los aztecas optaron por rezarle a Quetzalcóatl, la deidad más poderosa de la cultura mesoamericana. \nEl dios escuchó las plegarias de su pueblo, y les prometió que les traería aquel preciado alimento. Ni siquiera intentó separar las montañas, mejor utilizó su sabiduría para conseguir el maíz. Observó bien las colinas, y vio una hormiga roja que descendía con un grano de maíz sobre su espalda. \nSe acercó al insecto para interrogarlo y descubrir de dónde había sacado el codiciado grano. Luego de conversar con ella, la hormiga accedió a decirle todo, entonces Quetzalcóatl se convirtió en una hormiga negra para que su nueva amiga lo guiara hasta el lugar donde se escondía el alimento dorado que tanto pedían los aztecas. \nLa leyenda cuenta que aquella travesía estuvo llena de dificultades y duró varios días, pero el dios, siempre pensando en su pueblo, logró superar todo reto. Finalmente llegaron las hormigas a donde se erigían las plantas del maíz, tomó un grano maduro con su boca y regresó con su pueblo. Al llegar, los aztecas se regocijaron y sembraron aquel tesoro. Y cuando éste dio fruto, la civilización comenzó a proliferar. Se volvieron más fuertes y dieron inicio a la construcción de una ciudad. Desde aquel momento, los aztecas veneraron sin dudar al generoso dios Quetzalcóatl, el amigo de los hombres que les obsequió el maíz.",
+            "imagen"    : "https://3.bp.blogspot.com/-tDRT-7y1RWo/WOjypvWbFBI/AAAAAAAAARM/j-fOH58FDT4NsFj9VathoS1I96ItWbKxQCEw/s1600/Image1165.gif"
+        }
+    ]
+}
