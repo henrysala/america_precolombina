@@ -8,6 +8,7 @@ class AztecasEstructuraPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Color(0xff305d05),
           title: Text('Estructura Social aztecas'),
         ),
         body: _cardList());

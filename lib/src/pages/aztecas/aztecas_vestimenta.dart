@@ -8,6 +8,7 @@ class AztecasVestimentaPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Color(0xff305d05),
           title: Text('Vestimenta azteca'),
         ),
         body: _cardList());

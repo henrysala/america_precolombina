@@ -7,7 +7,10 @@ class AztecasUbicacionPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('Ubicacion de los Aztecas')),
+        appBar: AppBar(
+          title: Text('Ubicacion de los Aztecas'),
+          backgroundColor: Color(0xff305d05),
+        ),
         body: _cardList());
   }
 

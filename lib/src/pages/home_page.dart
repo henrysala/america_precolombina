@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Color(0xffba6323),
-        title: Text('Home Page'),
+        title: Text('America Precolombina'),
       ),
       body: _list(),
     );

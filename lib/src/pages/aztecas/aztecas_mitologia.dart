@@ -7,7 +7,10 @@ class AztecasMitologiaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(title: Text('Mitologia Azteca')), body: _cardList());
+        appBar: AppBar(
+            backgroundColor: Color(0xff305d05),
+            title: Text('Mitologia Azteca')),
+        body: _cardList());
   }
 
   Widget _cardList() {

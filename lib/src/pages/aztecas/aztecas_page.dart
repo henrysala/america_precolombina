@@ -9,6 +9,7 @@ class AztecasPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xffaa1100),
         title: Text('Imperio Azteca'),
       ),
       body: _list(),
