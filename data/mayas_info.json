@@ -56,8 +56,13 @@
             "imagen"    : "https://www.cultura10.org/wp-content/uploads/2018/03/ORGANIZACION-SOCIAL-DE-LOS-MAYAS-%C3%A9lites.jpg.webp"
         },
         {
+            "titulo"    : "Gobernante o Halach Uinic",
+            "texto"     : "\nGobernante o Halach Uinic, quien conservaba el poder absoluto sobre los asuntos terrenales o espirituales, siendo siempre su cargo heredado por el hijo mayor.",
+            "imagen"    : "https://www.cultura10.org/wp-content/uploads/2018/03/Organizaci%C3%B3n-pol%C3%ADtica-de-los-mayas.png.webp"
+        },
+        {
             "titulo"    : "Sacerdotes",
-            "texto"     : "\nGobernante o Halach Uinic, quien conservaba el poder absoluto sobre los asuntos terrenales o espirituales, siendo siempre su cargo heredado por el hijo mayor. \nSacerdotes o Ahau Kan, poseían los conocimientos relativos a la astronomía maya, fundamental para el desarrollo de la economía basada en la agricultura. Igualmente dominaban los secretos del calendario maya, escribían los códices y organizaban los rituales religiosos en los templos. Nobles y guerreros, siendo el tercer sector de importancia, los primeros hacían las funciones administrativas de la ciudad-estado, y los segundos se ocupaban de la defensa y expansión del territorio.",
+            "texto"     : "\nSacerdotes o Ahau Kan, poseían los conocimientos relativos a la astronomía maya, fundamental para el desarrollo de la economía basada en la agricultura. Igualmente dominaban los secretos del calendario maya, escribían los códices y organizaban los rituales religiosos en los templos. Nobles y guerreros, siendo el tercer sector de importancia, los primeros hacían las funciones administrativas de la ciudad-estado, y los segundos se ocupaban de la defensa y expansión del territorio.",
             "imagen"    : "https://pueblosoriginarios.com/recursos/colecciones/maya/imagenes/copal.jpg"
         },
         {
