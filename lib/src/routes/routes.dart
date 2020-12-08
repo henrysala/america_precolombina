@@ -9,6 +9,7 @@ import 'package:america_precolombina/src/pages/incas/ubicacion.dart';
 import 'package:america_precolombina/src/pages/aztecas_page.dart';
 import 'package:america_precolombina/src/pages/mayas_page.dart';
 import 'package:america_precolombina/src/pages/mayas/mayas_ubicacion.dart';
+import 'package:america_precolombina/src/pages/mayas/mayas_mitologia.dart';
 
 Map<String, WidgetBuilder> getAppRoutes() {
   return <String, WidgetBuilder>{
@@ -19,9 +20,10 @@ Map<String, WidgetBuilder> getAppRoutes() {
 
     'incas/ubicacion': (BuildContext context) => IncasUbicacionPage(),
     'aztecasUbicacion': (BuildContext context) => AztecasUbicacionPage(),
-    'mayasUbicacion': (BuildContext context) => MayasUbicacionPage(),
 
+    'mayasUbicacion': (BuildContext context) => MayasUbicacionPage(),
     'mayasEstructura': (BuildContext context) => MayasEstructuraPage(),
+    'mayasMitologia': (BuildContext context) => MayasMitologiaPage()
 
     //'aztecasEsctructura': (BuildContext context) => AztecasEstructurasPage(),
     //'aztecasMitologia': (BuildContext context) => AztecasMitologiaPage(),
