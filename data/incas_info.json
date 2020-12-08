@@ -47,5 +47,68 @@
             "texto"     : "Písac (también Pisaq) está ubicado a 33 km de la ciudad del Cuzco. Su sitio arqueológico es uno de los más importantes del Valle Sagrado de los Incas. La arquitectura de Písac es mestiza, construida sobre restos indígenas por el virrey Francisco de Toledo.",
             "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/a/ad/Ollantaytambo.jpg"
         }
+    ],
+    "estructura" : [
+        {
+            "titulo"    : "Organización social del Imperio Inca",
+            "texto"     : "El ayllu fue la célula social básica de la organización inca. En él se unían los individuos que tenían parentesco común por línea paterna",
+            "imagen"    : "https://storage.googleapis.com/portaleducativo-net-publica-g3p6/biblioteca/incas_sociedad.jpg",
+            "vestimenta": ""
+        },
+        {
+            "titulo"    : "Sapa Inca",
+            "texto"     : "Gobernante con derecho divino junto con la nobleza constituían el grupo privilegiado, el resto de la población integraba el grupo no privilegiado.",
+            "imagen"    : "https://2.bp.blogspot.com/_dW1gDtGvnXs/SPQcJEp_KFI/AAAAAAAAAc4/25T6rg62bKU/w1200-h630-p-k-no-nu/El+Inca.bmp",
+            "vestimenta": "El Sapa Inca utilizaba su ropa solo una vez; luego de ser usada, su ropa era quemada. \nSolo el Sapa Inca podía utilizar un tocado con borlas especiales de oro y plumas. Su tocado era distinto: alrededor de su cabeza se ataba un turbante con muchos pliegues coloridos, con borlas de color rojo y plumas de un pájaro extraño."
+        },
+        {
+            "titulo"    : "La nobleza",
+            "texto"     : "Se componía de los familiares del emperador y poseían las mejores tierras",
+            "imagen"    : "https://www.cultura10.org/wp-content/uploads/2018/07/VESTIMENTA-INCA2.jpg",
+            "vestimenta": "Vestían largas camisolas de fibras de cañas sub acuáticas, lavadas con espumas de laguna, como ellos llamaban a los fosfatos de rio y tintada con elementos naturales de flores y piedras de su vasto territorio., cuando llegaban las estaciones o los fríos a sus territorios usaban gruesos tejidos de llama, siempre adornada con detalles simbólicos que señalaban tiempo, sol, luna y estaciones. Las damas de la nobleza tenían el privilegio de llevar telas más sofisticadas y coloridas, como así también capas de vicuña"
+        },
+        {
+            "titulo"    : "Curacas",
+            "texto"     : "Eran nobles de carácter local, jefe político y administrativo del ayllu, quién organizaba las tareas agrícolas,  hacía de juez  y consejero, administraba los bienes,  la mita, los rituales y ceremonias.",
+            "imagen"    : "https://revistadehistoria.es/wp-content/uploads/2018/01/curacas.jpg",
+            "vestimenta": ""
+        },
+        {
+            "titulo"    : "El Wilaq o Uma",
+            "texto"     : "Cabeza sagrada, sacerdote principal. Reemplazaba al Sapa Inca en su ausencia como gobernante interino, teniendo a su  la supervisión de la política y la religión del Imperio Inca. Además, era la única persona en todo el Imperio con la potestad de coronar al Auqui (príncipe heredero) , como nuevo Inca al fallecer el antecesor.",
+            "imagen"    : "https://i.pinimg.com/originals/14/c7/db/14c7dbfb1606ceb13d0e69095c1e020c.jpg",
+            "vestimenta": "vestían telas de finísimos brocados de oro, hilos de plata así como hilos hechos de pelos de algunos animales, plumas y lo más extraordinarios de vellos de murciélagos"
+        },
+        {
+            "titulo"    : "Las Aqllasqa (Aclla)",
+            "texto"     : "Eran llamadas también escogidas, eran mujeres de singular belleza, fueron escogidas en varios lugares del Imperio para servir al Inca o al dios del Sol o Inti.",
+            "imagen"    : "https://2.bp.blogspot.com/-NpZr0g0GfjU/T0WWSFCEZII/AAAAAAAAAxU/wk6SWJX7u7U/s1600/acllas.jpg",
+            "vestimenta": "El vestuario que utilizaban las acllas era como el de los demás habitantes, aunque con algunas singularidades: al ser seleccionadas su cabello era rapado, pero luego se lo dejaba largo, adornado con una vincha."
+        }
+    ],
+    "mitologia" : [
+        {
+            "titulo"    : "Huiracocha",
+            "texto"     : "Es una divinidad del cielo que abarca la idea andina de un general 'Dios Creador' originaria de la cultura Caral es también figura central de la Puerta del Sol de Tiahuanaco, venerado posteriormente como dios supremo dentro del Imperio incaico. Figura como el creador del mundo, del sol y de la luna. Se le atribuye también la creación de la substancia de la cual se originan todas las cosas. Según las crónicas, Huiracocha nació en las profundidades del Lago Titicaca a orillas de la isla del sol",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Brooklyn_Museum_-_Viracocha%2C_Eighth_Inca%2C_1_of_14_Portraits_of_Inca_Kings_-_overall.jpg/276px-Brooklyn_Museum_-_Viracocha%2C_Eighth_Inca%2C_1_of_14_Portraits_of_Inca_Kings_-_overall.jpg"
+        },
+
+        {
+            "titulo"    : "Inti",
+            "texto"     : "Es considerado como la deidad más significativa en la mitología incaica. Los quechuas del Imperio inca tenían al Dios Sol en el primer peldaño del escalafón celeste, con el nombre sagrado de Inti; Las culturas anteriores tenían como deidad suprema a Viracocha. \n Este nuevo y mucho más poderoso Dios Sol no estaba solo en su reinado. Estaba casado con su hermana, la Luna; con quien compartía una igualdad de rango en la corte celestial. \n A Inti se le representaba con la forma de un elipsoide de oro en el que también podían aparecer los rayos como otro de sus atributos de poder.",
+            "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/6/68/Pachacuteckoricancha.jpg"
+        },
+
+        {
+            "titulo"    : "Mama Quilla",
+            "texto"     : "En la mitología y religión inca, fue el tercer poder y diosa lunar. Era la hermana y esposa de Inti, hija de Viracocha y Mama Cocha, y madre de Manco Cápac y Mama Ocllo, fundadores míticos del imperio y la cultura inca. Era la diosa del matrimonio y el ciclo menstrual,y considerada una defensora de las mujeres. También fue importante para el calendario inca. \nEsta diosa, representada por la Luna, acompañaba a Inti en igualdad de rango en la corte celestial. Madre del firmamento, marca las épocas de las cosechas, asumía la protección de todo el universo femenino.",
+            "imagen"    : "https://hablemosdemitologias.com/wp-content/uploads/2018/11/mama-cocha.jpg"
+        },
+
+        {
+            "titulo"    : "Origen del pueblo inca",
+            "texto"     : "Según la leyenda, el Sol dio vida a los primeros mortales en un sitio donde había tres cuevas: de las dos primeras salieron las etnias maras y tambos, y de la última, los hermanos Ayar. Los primeros no dejaron una gran prole y el Sol confió en los hermanos para poblar el mundo. Para ello, le dio una mujer a cada varón, siendo Mama Ocllo la esposa-hermana de Ayar Manco. Ordenados en parejas, caminaron hacia el sur, pero durante la travesía se fueron separando: Ayar Cachi fue enviado por sus hermanos a Tamputoco, donde fue encerrado para siempre, Ayar Uchú se convirtió en una montaña y Ayar Auca murió ahogado en un río. Solamente Ayar Manco y sus hermanas viudas llegaron al Cuzco, para fundar una nueva civilización. De esta manera nace el pueblo inca, que después de ser un pequeño asentamiento en el centro de los Andes, se convertiría en el más grande imperio de Sur América antes de la llegada de los españoles.",
+            "imagen"    : "https://www.socialhizo.com/images/edad_antigua/incas/mitos-y-creencias/hermanos-ayar.jpg"
+        }
     ]
 }

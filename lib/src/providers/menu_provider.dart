@@ -138,6 +138,20 @@ class _CardProviderMitologiaMayas {
   }
 }
 
+class _CardProvider{
+  List<dynamic> info = [];
+
+  Future<List<dynamic>> loadData(String file, String data) async {
+    final resp = await rootBundle.loadString(file);
+
+    Map dataJson = json.decode(resp);
+    info = dataJson[data];
+
+
+    return info;
+  }
+}
+
 final menuProviderHome = new _MenuProviderHome();
 
 
@@ -152,3 +166,5 @@ final cardProviderUbicacionAztecas = new _CardProviderUbicacionAztecas();
 final cardProviderEstructuraAztecas = new _CardProviderEstructuraAztecas();
 final cardProviderVestimentaAztecas = new _CardProviderVestimentaAztecas();
 final cardProviderMitologiaAztecas = new _CardProviderMitologiaAztecas();
+
+final cardProvider = new _CardProvider();
