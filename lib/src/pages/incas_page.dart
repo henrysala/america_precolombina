@@ -5,6 +5,7 @@ class IncasPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xffba6323),
       title: const Text('Cultura Inca'),
     ),
     body: Center(
@@ -13,9 +14,9 @@ class IncasPage extends StatelessWidget {
           const SizedBox(height: 15),
           _createButton('Ubicación', () {Navigator.pushNamed(context, 'incas/ubicacion');}),
           const SizedBox(height: 15),
-          _createButton('Estructura social', () {}),
+          _createButton('Estructura social', () {Navigator.pushNamed(context, 'incas/estructura');}),
           const SizedBox(height: 15),
-          _createButton('Mitología', () {}),
+          _createButton('Mitología', () {Navigator.pushNamed(context, 'incas/mitologia');}),
           const SizedBox(height: 15),
           _createButton('Reto', () {}),
         ],)
