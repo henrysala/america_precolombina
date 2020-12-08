@@ -9,7 +9,7 @@ class MayasPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Mayas - Ubicación'),
+        title: Text('Civilización Maya'),
       ),
       body: _list(),
     );
