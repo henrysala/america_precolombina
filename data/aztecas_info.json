@@ -26,6 +26,7 @@
             "texto" : "Actividad"
         }
     ],
+
     "ubicacion" : [
         {
             "titulo"    : "Ubicación del Imperio azteca",
@@ -63,6 +64,7 @@
             "imagen"    : "https://static.rutasdeescape.com/wp-content/uploads/2018/07/iStock-Templo-da-serpente-emplumada-em-Xochicalco-1024x683.jpg"
         }
     ],
+
     "estructura"    : [
         {   "titulo"    : "Estructura",        
             "texto"     : "\nEn la siguiente imagen se muestra de manera sencilla y con los nombre originarios en náhuatl los distintos estratos sociales de la sociedad mexica.",
@@ -97,6 +99,7 @@
             "imagen"    : "https://i.pinimg.com/originals/bc/73/9f/bc739f61e86bad84ede1a053df6e09d3.jpg"
         }
     ],
+
     "vestimenta"    : [
         {
             "titulo"    : "Vestido femenino",
@@ -130,6 +133,7 @@
         }
 
     ],
+    
     "pinta"  : [
         {
             "titulo"    : "Peinado femenino",
@@ -160,6 +164,7 @@
             "texto"   : "A las niñas se les vestía de pequeñas con un vestido similar a sus madres pero a su tamaño, el cual era poco adornado, para los niños se les vestía solamente con el maxtlatl o sin nada."
         }
     ],
+    
     "mitologia" : [
         {
             "titulo"    : "Yacatecuhtli",

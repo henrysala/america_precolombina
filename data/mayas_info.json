@@ -51,18 +51,18 @@
 
     "estructura" : [
         {
-            "titulo"    : "Estructuta social de los Mayas",
+            "titulo"    : "Estructura social de los Mayas",
             "texto"     : "\nLa clase élite o llamados almenehoob era el grupo privilegiado que tenía una consanguinidad directa con los fundadores de la cultura maya. De esta manera, dentro de la organización social de los mayas se encargaron de monopolizar el poder y la autoridad, ostentando los puestos políticos o religiosos. Estando compuesta de la siguiente manera: ",
             "imagen"    : "https://www.cultura10.org/wp-content/uploads/2018/03/ORGANIZACION-SOCIAL-DE-LOS-MAYAS-%C3%A9lites.jpg.webp"
         },
         {
             "titulo"    : "Gobernante o Halach Uinic",
-            "texto"     : "\nGobernante o Halach Uinic, quien conservaba el poder absoluto sobre los asuntos terrenales o espirituales, siendo siempre su cargo heredado por el hijo mayor.",
+            "texto"     : "\nGobernante o Halach Uinic, quien conservaba el poder absoluto sobre los asuntos terrenales o espirituales, siendo siempre su cargo heredado por el hijo mayor.El Halach Uinic era el señor de una ciudad-Estado maya. Era un cargo hereditario que se trasmitía al hijo mayor. Su principal símbolo de poder era el cetro de maniquí, un bastón ceremonial que tenía la figura de K´awiil, el dios de la vida.",
             "imagen"    : "https://www.cultura10.org/wp-content/uploads/2018/03/Organizaci%C3%B3n-pol%C3%ADtica-de-los-mayas.png.webp"
         },
         {
             "titulo"    : "Sacerdotes",
-            "texto"     : "\nSacerdotes o Ahau Kan, poseían los conocimientos relativos a la astronomía maya, fundamental para el desarrollo de la economía basada en la agricultura. Igualmente dominaban los secretos del calendario maya, escribían los códices y organizaban los rituales religiosos en los templos. Nobles y guerreros, siendo el tercer sector de importancia, los primeros hacían las funciones administrativas de la ciudad-estado, y los segundos se ocupaban de la defensa y expansión del territorio.",
+            "texto"     : "\nSacerdotes o Ahau Kan, poseían los conocimientos relativos a la astronomía maya, fundamental para el desarrollo de la economía basada en la agricultura. Igualmente dominaban los secretos del calendario maya, escribían los códices y organizaban los rituales religiosos en los templos. Nobles y guerreros, siendo el tercer sector de importancia, los primeros hacían las funciones administrativas de la ciudad-estado, y los segundos se ocupaban de la defensa y expansión del territorio. Tenían bordados con plumas o gemas, calzaba sandalias de cuero, lucia grandes tocados de plumas, además de collares, pectorales y pesados cinturones con incrustaciones de nácar y piedras grabadas.",
             "imagen"    : "https://pueblosoriginarios.com/recursos/colecciones/maya/imagenes/copal.jpg"
         },
         {
@@ -72,8 +72,31 @@
         },
         {
             "titulo"    : "Esclavos o pentacoob",
-            "texto"     : "\nEsclavos o pentacoob, estaba compuesta por los prisioneros de guerra, infractores o criminales, quienes eran obligados a realizar el trabajo forzado y habitualmente sacrificados en las ceremonias religiosas.",
+            "texto"     : "\nEsclavos o pentacoob, estaba compuesta por los prisioneros de guerra, infractores o criminales, quienes eran obligados a realizar el trabajo forzado y habitualmente sacrificados en las ceremonias re ligiosas.",
             "imagen"    : "https://lopzdianamar.files.wordpress.com/2014/06/aztecas-arquitectura.jpg"
+        }
+    ],
+
+    "mitologia" : [
+        {
+            "titulo": "Hunab ku",
+            "texto":  "\nEs el dios más importante de la cultura maya, padre de todos los dioses, es el único vivo y verdadero, y de él nacen todas las cosas. Hunab Ku, o kolop u wich k’in, como se conocía en esta civilización, es una figura incorpórea, por lo que no puede representarse en la cultura.\nEn su figura convergen las dualidades, los elementos opuestos con los que dio origen al universo. Este dios es el todo y la nada al mismo tiempo. Los mayas consideraban a Hunab Ku el centro de la galaxia, el corazón, la mente y el ser creador. Lo invocaban a través del sol y el centro del universo, donde ubicaban su presencia.",
+            "imagen": "https://www.mitologia.info/wp-content/uploads/2017/11/1-3.jpg"
+        },
+        {
+            "titulo": "Chaac",
+            "texto":  "\nChaac es otras de las principales figuras en el panteón maya; está asociado al agua, los relámpagos y la lluvia, por lo que se invoca para obtener buenas cosechas.\nEn la cultura maya era representado como un hombre viejo, con rasgos de reptil y una trompa (o nariz) larga inclinada hacia arriba.",
+            "imagen": "https://i.pinimg.com/736x/2a/a0/3b/2aa03b97e6f7121c8f7c7b8624d683b5.jpg"
+        },
+        {
+            "titulo": "Itzamná",
+            "texto":  "\nTambién conocido como Zamná, es el dios de la sabiduría, creador de la ciencia y el conocimiento, además es denominado el dios del Sol, señor del cielo, del día y de la noche. \nItzamná es otro de los dioses centrales del panteón maya, su importancia es crucial pues habla del trabajo, el sacrificio y el camino del hombre verdadero. \nSe considera como espíritu universal de vida que anima al caos para que haya creación. Es representado mayormente como un anciano, pero también bajo la forma de diferentes animales dependiendo del plano donde se encontraba. \nAsí, podía ser un ave, cuando se encuentra en su forma celestial o figurarse en un cocodrilo, cuando estaba en la tierra. Siempre llevaba las manos en forma de recipiente y aros en las orejas.",
+            "imagen": "https://i2.wp.com/www.lavozdemotul.com/wp-content/uploads/2020/04/itzaman-_resultado.jpg?fit=640%2C920&ssl=1"
+        },
+        {
+            "titulo": "El Popol Vuh",
+            "texto":  "\nEl Popol Vuh es sin lugar a dudas el más importante de los textos mayas que se conservan. Se distingue no sólo por su extraordinario contenido histórico y mitológico, sino por sus cualidades literarias, las que permiten que se le pueda colocar a la altura de grandes obras épicas como el Ramayana hindú o la Ilíada y la Odisea griegas.El contenido se puede dividir en los siguientes apartados: \nLa creación. En la primera parte del Popol Vuh, los dioses hacen surgir del mar primordial los valles y las montañas, y crean las plantas y los animales. Deciden crear a seres que los veneren y les hagan ofrendas. Los tres primeros intentos fracasan; en el primero las criaturas son los animales de cuatro patas y las aves, pero como son incapaces de hablar deciden hacer un segundo intento. En éste forman una criatura de lodo, pero ésta se disuelve al mojarse. En el tercer intento hacen hombres de madera, pero éstos son incapaces de venerarlos, por lo que deciden castigar su soberbia con un huracán y provocan que sus animales, sus herramientas y las piedras de sus casas se vuelvan contra ellos; los monos son los descendientes de aquellos hombres de madera. En el cuarto intento logran su propósito y crean al hombre, al que forman con maíz. Estos hombres, que saben cumplir sus obligaciones con sus creadores, son capaces de ver todo, en el tiempo y en el espacio, por lo que los dioses deciden nublar su visión. Ésta es la humanidad que ahora puebla la tierra.",
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnUF1ZWUNfUkZFl3xGe3KqT5-wmkU7V7dsPQ&usqp=CAU"
         }
     ]
 }
