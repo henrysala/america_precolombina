@@ -133,14 +133,15 @@ class _CardProviderMitologiaMayas {
 }
 
 final menuProviderHome = new _MenuProviderHome();
-final menuProviderAztecas = new _MenuProviderAztecas();
-final cardProviderUbicacionAztecas = new _CardProviderUbicacionAztecas();
 
+final menuProviderAztecas = new _MenuProviderAztecas();
 final menuProviderMayas = new _MenuProviderMayas();
+
 final cardProviderUbicacionMayas = new _CardProviderUbicacionMayas();
 final cardProviderEstructuraMayas = new _CardProviderEstructuraMayas();
 final cardProviderMitologiaMayas = new _CardProviderMitologiaMayas();
 
+final cardProviderUbicacionAztecas = new _CardProviderUbicacionAztecas();
 final cardProviderEstructuraAztecas = new _CardProviderEstructuraAztecas();
 final cardProviderVestimentaAztecas = new _CardProviderVestimentaAztecas();
 final cardProviderMitologiaAztecas = new _CardProviderMitologiaAztecas();
