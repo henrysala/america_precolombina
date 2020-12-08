@@ -62,10 +62,25 @@ class _CardProviderUbicacionMayas {
 
     Map dataJson = json.decode(resp);
     info = dataJson['ubicacion'];
+    
+    return info;
+  }
+}
+
+class _CardProviderEstructuraAztecas {
+  List<dynamic> info = [];
+
+  Future<List<dynamic>> loadData() async {
+    final resp = await rootBundle.loadString('data/aztecas_info.json');
+
+    Map dataJson = json.decode(resp);
+    info = dataJson['estructura'];
+
 
     return info;
   }
 }
+
 
 class _CardProviderEstructuraMayas {
   List<dynamic> info = [];
@@ -75,6 +90,33 @@ class _CardProviderEstructuraMayas {
 
     Map dataJson = json.decode(resp);
     info = dataJson['estructura'];
+    
+    return info;
+  }
+}
+
+class _CardProviderVestimentaAztecas {
+  List<dynamic> info = [];
+
+  Future<List<dynamic>> loadData() async {
+    final resp = await rootBundle.loadString('data/aztecas_info.json');
+
+    Map dataJson = json.decode(resp);
+    info = dataJson['vestimenta'];
+
+    return info;
+  }
+}
+
+class _CardProviderMitologiaAztecas {
+  List<dynamic> info = [];
+
+  Future<List<dynamic>> loadData() async {
+    final resp = await rootBundle.loadString('data/aztecas_info.json');
+
+    Map dataJson = json.decode(resp);
+    info = dataJson['mitologia'];
+
 
     return info;
   }
@@ -83,6 +125,12 @@ class _CardProviderEstructuraMayas {
 final menuProviderHome = new _MenuProviderHome();
 final menuProviderAztecas = new _MenuProviderAztecas();
 final cardProviderUbicacionAztecas = new _CardProviderUbicacionAztecas();
+
 final menuProviderMayas = new _MenuProviderMayas();
 final cardProviderUbicacionMayas = new _CardProviderUbicacionMayas();
 final cardProviderEstructuraMayas = new _CardProviderEstructuraMayas();
+
+final cardProviderEstructuraAztecas = new _CardProviderEstructuraAztecas();
+final cardProviderVestimentaAztecas = new _CardProviderVestimentaAztecas();
+final cardProviderMitologiaAztecas = new _CardProviderMitologiaAztecas();
+
