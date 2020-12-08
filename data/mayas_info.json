@@ -1,0 +1,74 @@
+{
+    "rutasMayas"  : [
+        {
+            "ruta"  : "mayasUbicacion",
+            "icon"  : "gps_fixed",
+            "texto" : "Ubicación"
+        },
+        {
+            "ruta"  : "mayasEstructura",
+            "icon"  : "account_tree",
+            "texto" : "Estructura Social"
+        },
+        {
+            "ruta"  : "mayasMitologia",
+            "icon"  : "brightness_4_outlined",
+            "texto" : "Mitología"
+        },
+        {
+            "ruta"  : "mayasReto",
+            "icon"  : "videogame_asset",
+            "texto" : "Actividad"
+        }
+    ],
+    "ubicacion" : [
+        {
+            "titulo"    : "Ubicación del Imperio Maya",
+            "texto"     : "\nSe pueden definir tres grandes zonas donde se ubicaron los mayas. La zona norte, que incluye los actuales estados de Yucatán, en su totalidad y la mayor parte de Campeche y Quintana Roo. En este territorio el terreno es pedregoso y semiárido, partes bajas de vastas planicies, vegetación de monte bajo, clima seco y cálido. No hay ríos de superficie, pero el terreno es permeable y el agua se filtra rápidamente, formando corrientes subterráneas llamadas “cenotes”. La zona central, va desde el río Usumacinta o Grijalba en el actual estado de Tabasco, hasta la parte oriental de Honduras, incluyendo también el Petén guatemalteco, Belice y parte de Chiapas. Tiene un clima caliente y húmedo, además de vegetación tropical. La zona sur comprende las tierras altas y faja costera del Océano Pacífico, parte de Chiapas, Guatemala, y El Salvador. El clima es templado y frío en las serranías, con zonas calientes y húmedas, poblados de densos pinares y cipreses, y alturas que sobrepasan los 1500 metros sobre el nivel del mar.",
+            "imagen"    : "https://culturalmaya.com/wp-content/uploads/2018/01/Ubicacion-geografica-mayas.jpg"
+        },
+        {
+            "titulo"    : "El emperador maya que habría viajado al espacio",
+            "texto"     : "\nMás conocido como 'Pakal el grande', K’inich Janaab’ Pakal fue gobernante de la ciudad maya de B’aakal, situada en el actual territorio de la zona arqueológica de Palenque, en el norte de Chiapas, México, desde el año 615 de nuestra era, hasta el 683. Su lápida estaba inscripta una serie de imágenes enigmáticas, que dejaron a los arqueólogos desconcertados. Con el tiempo, expertos en ufología comenzaron a afirmar que estas imágenes eran evidencia de los conocimientos tecnológicos que manejaron los mayas y su interacción con seres extraterrestres. Algunas ilustraciones muestran a Pakal piloteando una presunta nave espacial y pueden verse sus manos manipulando alguna especie de tablero de control, con palancas y pulsadores. Tanto es así, que los expertos bautizaron a este personaje como el 'astronauta palenque'.",
+            "imagen"    : "https://s3-us-west-2.amazonaws.com/amazon.aetnapps.com/tuhistory/noticias/12-06-17/H.1206.Astronauta.Maya.4.jpg"
+        },
+        {
+            "titulo"    : "Chichén Itzá",
+            "texto"     : "\nLa legendaria ciudad maya de Chichén Itzá, Patrimonio de la Humanidad declarada por la UNESCO desde 1988 y Maravilla del Mundo desde 2007, sobresalió como centro cultural y político de la vieja civilización maya y fue uno de los asentamientos más extensos del centro-norte de la península de Yucatán. En su época de mayor esplendor, fue la ciudad más poderosa de la península de Yucatán. Los Itzáes se establecieron en Chichén Itzá en el siglo IX d.C. Se cree que eran mayas putunes o chontales. Forjaron un amplio dominio con una cultura unificada cuyo centro era Chichén ltzá. Hacia fines del siglo X, la ciudad fue invadida por una tribu predominantemente guerrera: los toltecas. Esta última invasión trajo consigo una nueva serie de elementos culturales, sobresaliendo la representación del dios-serpiente Kukulkán. Hacia 1250 d.C., la ciudad fue abandonada por razones no del todo determinadas. Tan grande fue el poderío de esta ciudad que siglos después de su decadencia aún era sitio de peregrinación y adoración, e incluso hacia el año 1540 d.C.",
+            "imagen"    : "http://www.yucatan.gob.mx/docs/galerias/chichen_itza/1.jpg"
+        },
+        {
+            "titulo"    : "Edzná",
+            "texto"     : "\nEsta antigua ciudad pertenece a la cultura maya, una de las 100 ciudades mayas que se desarrollaron en la época clásica. Esta ciudad tienen sus orígenes en los 600 antes de Cristo y fue abandonada en el 1450 después de Cristo. Edzna significa la casa de los itzaes, que eran una familia que se asentó en esta ciudad , un grupo étnico con mucha influencia en el centro de México.",
+            "imagen"    : "https://media.iatiseguros.com/wp-content/uploads/2014/03/zona-arqueologica-de-Edzna.jpg"
+        },
+        {
+            "titulo"    : "Uxmal",
+            "texto"     : "\nLa zona arqueológica de Uxmal está a 70 km de Mérida la capital del estado, fue una de las más grandes ciudades Mayas del siglos V y VI . Su estilo arquitectónico es único “Puuc”. Podemos ver en esta ciudad 15 grupos de edificios, en los 2 kilómetros que tiene el lugar, entre ellos destaca La Pirámide del Adivino, es la más importante y mide 35 metros de Alto!!!! ",
+            "imagen"    : "https://media.iatiseguros.com/wp-content/uploads/2014/03/uxmal.jpg"
+        }
+    ],
+
+    "estructura" : [
+        {
+            "titulo"    : "Estructuta social de los Mayas",
+            "texto"     : "\nLa clase élite o llamados almenehoob era el grupo privilegiado que tenía una consanguinidad directa con los fundadores de la cultura maya. De esta manera, dentro de la organización social de los mayas se encargaron de monopolizar el poder y la autoridad, ostentando los puestos políticos o religiosos. Estando compuesta de la siguiente manera: ",
+            "imagen"    : "https://www.cultura10.org/wp-content/uploads/2018/03/ORGANIZACION-SOCIAL-DE-LOS-MAYAS-%C3%A9lites.jpg.webp"
+        },
+        {
+            "titulo"    : "Sacerdotes",
+            "texto"     : "\nGobernante o Halach Uinic, quien conservaba el poder absoluto sobre los asuntos terrenales o espirituales, siendo siempre su cargo heredado por el hijo mayor. \nSacerdotes o Ahau Kan, poseían los conocimientos relativos a la astronomía maya, fundamental para el desarrollo de la economía basada en la agricultura. Igualmente dominaban los secretos del calendario maya, escribían los códices y organizaban los rituales religiosos en los templos. Nobles y guerreros, siendo el tercer sector de importancia, los primeros hacían las funciones administrativas de la ciudad-estado, y los segundos se ocupaban de la defensa y expansión del territorio.",
+            "imagen"    : "https://pueblosoriginarios.com/recursos/colecciones/maya/imagenes/copal.jpg"
+        },
+        {
+            "titulo"    : "Artesanos y campesinos o Ah Chembal Uinicoob",
+            "texto"     : "\nArtesanos y campesinos o Ah Chembal Uinicoob, siendo la clase inferior de la cultura maya, se dedicaban a la agricultura, construcción de obras públicas, y labores artesanales. Entre sus obligaciones estaba el pagar impuestos a las autoridades civiles o religiosas. Además vivían en las cercanías de las ciudades, teniendo algunos la condición de nobles o guerreros de acuerdo a la casta a la que pertenecían.",
+            "imagen"    : "https://i.pinimg.com/564x/a8/73/d0/a873d0ea72b0da37ff5b49d4c1922708.jpg"
+        },
+        {
+            "titulo"    : "Esclavos o pentacoob",
+            "texto"     : "\nEsclavos o pentacoob, estaba compuesta por los prisioneros de guerra, infractores o criminales, quienes eran obligados a realizar el trabajo forzado y habitualmente sacrificados en las ceremonias religiosas.",
+            "imagen"    : "https://lopzdianamar.files.wordpress.com/2014/06/aztecas-arquitectura.jpg"
+        }
+    ]
+}
