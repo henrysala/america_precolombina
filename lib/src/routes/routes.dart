@@ -22,15 +22,14 @@ Map<String, WidgetBuilder> getAppRoutes() {
     'aztecas': (BuildContext context) => AztecasPage(),
 
     'incas/ubicacion': (BuildContext context) => IncasUbicacionPage(),
-    'aztecasUbicacion': (BuildContext context) => AztecasUbicacionPage(),
+
     'mayasUbicacion': (BuildContext context) => MayasUbicacionPage(),
-
     'mayasEstructura': (BuildContext context) => MayasEstructuraPage(),
-    'aztecasEstructura': (BuildContext context) => AztecasEstructuraPage(),
-
-    'aztecasVestimenta': (BuildContext context) => AztecasVestimentaPage(),
-
     'mayasMitologia': (BuildContext context) => MayasMitologiaPage(),
+
+    'aztecasUbicacion': (BuildContext context) => AztecasUbicacionPage(),
+    'aztecasEstructura': (BuildContext context) => AztecasEstructuraPage(),
+    'aztecasVestimenta': (BuildContext context) => AztecasVestimentaPage(),
     'aztecasMitologia': (BuildContext context) => AztecasMitologiaPage(),
 
     //'aztecasReto': (BuildContext context) => AztecasRetoPage(),
