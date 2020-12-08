@@ -31,7 +31,6 @@ Map<String, WidgetBuilder> getAppRoutes() {
     'aztecasEstructura': (BuildContext context) => AztecasEstructuraPage(),
     'aztecasVestimenta': (BuildContext context) => AztecasVestimentaPage(),
     'aztecasMitologia': (BuildContext context) => AztecasMitologiaPage(),
-
     //'aztecasReto': (BuildContext context) => AztecasRetoPage(),
   };
 }
