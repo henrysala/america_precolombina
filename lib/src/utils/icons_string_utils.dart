@@ -26,8 +26,7 @@ final _symbols = <String, CircleAvatar>{
         'https://grandesmitos.com/wp-content/uploads/2020/03/simbolog%C3%ADa-maya1.jpg'),
   ),
   'aztecas_symbol': CircleAvatar(
-    backgroundImage: NetworkImage(
-        'https://diccionariodesimbolos.org/wp-content/uploads/2019/11/bf27726b6a5ad140664b6550ac3e04a7-300x264.jpg'),
+    backgroundImage: AssetImage('assets/aztecas_icon.jpg'),
   ),
 };
 

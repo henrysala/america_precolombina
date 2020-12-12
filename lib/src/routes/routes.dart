@@ -1,3 +1,4 @@
+import 'package:america_precolombina/src/pages/aztecas/aztecas_game.dart';
 import 'package:flutter/material.dart';
 
 //Propias
@@ -22,19 +23,16 @@ Map<String, WidgetBuilder> getAppRoutes() {
     'incas': (BuildContext context) => IncasPage(),
     'mayas': (BuildContext context) => MayasPage(),
     'aztecas': (BuildContext context) => AztecasPage(),
-
     'incas/ubicacion': (BuildContext context) => IncasUbicacionPage(),
     'incas/estructura': (BuildContext context) => IncasEstructuraPage(),
     'incas/mitologia': (BuildContext context) => IncasMitologiaPage(),
-
     'mayasUbicacion': (BuildContext context) => MayasUbicacionPage(),
     'mayasEstructura': (BuildContext context) => MayasEstructuraPage(),
     'mayasMitologia': (BuildContext context) => MayasMitologiaPage(),
-
     'aztecasUbicacion': (BuildContext context) => AztecasUbicacionPage(),
     'aztecasEstructura': (BuildContext context) => AztecasEstructuraPage(),
     'aztecasVestimenta': (BuildContext context) => AztecasVestimentaPage(),
     'aztecasMitologia': (BuildContext context) => AztecasMitologiaPage(),
-    //'aztecasReto': (BuildContext context) => AztecasRetoPage(),
+    'aztecasReto': (BuildContext context) => AztecasJuegoPage(),
   };
 }
