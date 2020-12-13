@@ -8,7 +8,7 @@ class AztecasJuegoPage extends StatefulWidget {
 }
 
 class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
-  Timer _timer;
+  //Timer _timer;
   int _primero = -1;
   int _segundo = -2;
   int _clicks = 0;
@@ -39,6 +39,10 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
       ),
       body: Center(
         child: _buildGrid(),
+      ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.reset_tv),
+        onPressed: _reiniciar,
       ),
     );
   }
@@ -103,15 +107,14 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
             )),
       );
 
-  void _voltear(int i, int k) {
-    setState(() {
+  void _voltear(int i, int k) async {
+    if (_clicks < 2) {
       _imagenes[i] = AssetImage('assets/aztecas_game/$k.jpg');
-
+      setState(() {});
       _segundo = _primero;
       _primero = k;
       _indexB = _indexA;
       _indexA = i;
-
       if (_indexB != _indexA) {
         //
         _clicks++;
@@ -122,26 +125,28 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
           _indexB = -2;
           _indexA = -1;
           _clicks = 0;
-        } else {
-          _timer = new Timer(const Duration(seconds: 1), comparar);
+        } else if (_clicks == 2 && _primero != _segundo) {
+          await tapando();
+          _clicks = 0;
+          _primero = -1;
+          _segundo = -2;
+          _indexB = -2;
+          _indexA = -1;
           //
         }
       }
-    });
+    }
   }
 
-  void comparar() {
-    if (_clicks == 2 && _primero != _segundo) {
-      setState(() {
-        _imagenes[_indexA] = AssetImage('assets/aztecas_icon.jpg');
-        _imagenes[_indexB] = AssetImage('assets/aztecas_icon.jpg');
-        _primero = -1;
-        _segundo = -2;
-        _indexB = -2;
-        _indexA = -1;
-        _clicks = 0;
-      });
-    }
-    _timer.cancel();
+  Future<void> tapando() async {
+    return Future.delayed(Duration(seconds: 1), () => {tapar()});
   }
+
+  void tapar() {
+    _imagenes[_indexA] = AssetImage('assets/aztecas_icon.jpg');
+    _imagenes[_indexB] = AssetImage('assets/aztecas_icon.jpg');
+    setState(() {});
+  }
+
+  void _reiniciar() {}
 }
