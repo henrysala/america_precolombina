@@ -13,7 +13,7 @@ class MayasUbicacionPage extends StatelessWidget {
 
   Widget _cardList() {
     return FutureBuilder(
-      future: cardProviderUbicacionMayas.loadData(),
+      future: provider.loadData('data/mayas_info.json', 'ubicacion'),
       initialData: [],
       builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
         return ListView(

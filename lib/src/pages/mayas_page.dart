@@ -17,7 +17,7 @@ class MayasPage extends StatelessWidget {
 
   Widget _list() {
     return FutureBuilder(
-      future: menuProviderMayas.loadData(),
+      future: provider.loadData('data/mayas_info.json', 'rutasMayas'),
       initialData: [],
       builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
         return ListView(

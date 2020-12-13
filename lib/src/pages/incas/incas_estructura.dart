@@ -6,15 +6,15 @@ class IncasEstructuraPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Estructura los Incas'),
-        backgroundColor: Color(0xffba6323)),
-      body: _cardList());
+        appBar: AppBar(
+            title: Text('Estructura los Incas'),
+            backgroundColor: Color(0xffba6323)),
+        body: _cardList());
   }
 
-   Widget _cardList() {
+  Widget _cardList() {
     return FutureBuilder(
-      future: cardProvider.loadData('data/incas_info.json', 'estructura'),
+      future: provider.loadData('data/incas_info.json', 'estructura'),
       initialData: [],
       builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
         return ListView(
@@ -28,7 +28,7 @@ class IncasEstructuraPage extends StatelessWidget {
     final List<Widget> info = [];
     data.forEach((element) {
       var vest = "";
-      if(element['vestimenta'] != ''){
+      if (element['vestimenta'] != '') {
         vest = element['vestimenta'];
       }
       final widgetTemp = Card(
@@ -42,8 +42,8 @@ class IncasEstructuraPage extends StatelessWidget {
               contentPadding: EdgeInsets.all(20.0),
             ),
             Container(
-            padding: EdgeInsets.all(20),
-            child: Text(element['texto']),
+              padding: EdgeInsets.all(20),
+              child: Text(element['texto']),
             ),
             FadeInImage(
                 image: NetworkImage(element['imagen']),
@@ -52,11 +52,9 @@ class IncasEstructuraPage extends StatelessWidget {
                 height: 300.0,
                 width: 360.0,
                 fit: BoxFit.cover),
-                Container(
-                padding: EdgeInsets.all(5.0), child: Text(element['titulo'])),
             Container(
-              padding: EdgeInsets.all(20),
-              child: Text(vest)),
+                padding: EdgeInsets.all(5.0), child: Text(element['titulo'])),
+            Container(padding: EdgeInsets.all(20), child: Text(vest)),
           ],
         ),
       );
@@ -68,5 +66,4 @@ class IncasEstructuraPage extends StatelessWidget {
     });
     return info;
   }
-
 }

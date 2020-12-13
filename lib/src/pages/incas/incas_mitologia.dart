@@ -6,15 +6,14 @@ class IncasMitologiaPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Mitología Inca'),
-        backgroundColor: Color(0xffba6323)),
-      body: _cardList());
+        appBar: AppBar(
+            title: Text('Mitología Inca'), backgroundColor: Color(0xffba6323)),
+        body: _cardList());
   }
 
-   Widget _cardList() {
+  Widget _cardList() {
     return FutureBuilder(
-      future: cardProvider.loadData('data/incas_info.json', 'mitologia'),
+      future: provider.loadData('data/incas_info.json', 'mitologia'),
       initialData: [],
       builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
         return ListView(
@@ -38,8 +37,8 @@ class IncasMitologiaPage extends StatelessWidget {
               contentPadding: EdgeInsets.all(20.0),
             ),
             Container(
-            padding: EdgeInsets.all(20),
-            child: Text(element['texto']),
+              padding: EdgeInsets.all(20),
+              child: Text(element['texto']),
             ),
             FadeInImage(
                 image: NetworkImage(element['imagen']),
@@ -61,5 +60,4 @@ class IncasMitologiaPage extends StatelessWidget {
     });
     return info;
   }
-
 }

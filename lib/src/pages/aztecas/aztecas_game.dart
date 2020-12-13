@@ -49,7 +49,7 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
 
   Future<List<dynamic>> llenarInfo() async {
     List<dynamic> info =
-        await cardProvider.loadData('data/aztecas_info.json', 'juego');
+        await provider.loadData('data/aztecas_info.json', 'juego');
     return info;
   }
 
@@ -68,7 +68,7 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
 
   void _showAlert(BuildContext context, int k) async {
     List<dynamic> info = await llenarInfo();
-    //await info = llenarInfo(info);
+
     showDialog(
         context: context,
         //barrierDismissible: true,
@@ -105,7 +105,6 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
             width: 80,
             child: GestureDetector(
               onTap: () {
-                //_showAlert(context);
                 _voltear(i, desordenados[i]);
               },
               child: Container(
@@ -130,7 +129,6 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
         _primero = k;
         setState(() {});
         if (_clicks == 2 && _primero == _segundo) {
-          //_showAlert(context);
           _primero = -1;
           _segundo = -2;
           _indexB = -2;
