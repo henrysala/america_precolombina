@@ -1,10 +1,7 @@
 import 'dart:async';
-//import 'dart:convert';
-
+import 'dart:math';
 import 'package:america_precolombina/src/providers/menu_provider.dart';
-//import 'package:america_precolombina/src/providers/menu_provider.dart';
 import 'package:flutter/material.dart';
-//import 'package:flutter/services.dart';
 
 class AztecasJuegoPage extends StatefulWidget {
   @override
@@ -12,13 +9,12 @@ class AztecasJuegoPage extends StatefulWidget {
 }
 
 class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
-  //Timer _timer;
   int _primero = -1;
   int _segundo = -2;
   int _clicks = 0;
   int _indexA = -1;
   int _indexB = -2;
-  //AssetImage _imagen = new AssetImage('assets/aztecas_icon.jpg');
+
   List<AssetImage> _imagenes = [
     AssetImage('assets/aztecas_icon.jpg'),
     AssetImage('assets/aztecas_icon.jpg'),
@@ -33,8 +29,6 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
     AssetImage('assets/aztecas_icon.jpg'),
     AssetImage('assets/aztecas_icon.jpg')
   ];
-
-  //Future List<dynamic> info;
 
   @override
   Widget build(BuildContext context) {
@@ -53,31 +47,24 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
     );
   }
 
-/*   Widget sacarInfo() {
-    return FutureBuilder(
-      future: cardProvider.loadData('data/aztecas_info.json', 'juegos'),
-      initialData: [],
-      builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
-        return _listaItems(snapshot.data, context);
-      },
-    );
-  }
-  List<dynamic> _listaItems(List<dynamic> data, BuildContext context) */
-
   Future<List<dynamic>> llenarInfo() async {
     List<dynamic> info =
         await cardProvider.loadData('data/aztecas_info.json', 'juego');
     return info;
   }
 
-/*   Future<List<dynamic>> loadData(String file, String data) async {
-    final resp = await rootBundle.loadString(file);
+  void _desordenar(List<int> arreglo) {
+    var random = new Random();
+    for (var i = arreglo.length - 1; i > 0; i--) {
+      var n = random.nextInt(i + 1);
 
-    Map dataJson = json.decode(resp);
-    info = dataJson[data];
+      var temp = arreglo[i];
+      arreglo[i] = arreglo[n];
+      arreglo[n] = temp;
+    }
+  }
 
-    return info;
-  } */
+  List<int> desordenados = [4, 5, 3, 1, 2, 6, 4, 5, 3, 1, 2, 6];
 
   void _showAlert(BuildContext context, int k) async {
     List<dynamic> info = await llenarInfo();
@@ -111,8 +98,6 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
         crossAxisSpacing: 4,
         children: _buildGridTileList(12, desordenados),
       );
-
-  List<int> desordenados = [4, 5, 3, 1, 2, 6, 4, 5, 3, 1, 2, 6];
 
   List<Container> _buildGridTileList(int count, List<int> arr) => List.generate(
         count,
@@ -180,6 +165,7 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
     for (int i = 0; i < _imagenes.length; i++) {
       _imagenes[i] = AssetImage('assets/aztecas_icon.jpg');
     }
+    _desordenar(desordenados);
     setState(() {});
   }
 }
