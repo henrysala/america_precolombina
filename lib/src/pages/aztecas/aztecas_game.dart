@@ -108,16 +108,17 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
       );
 
   void _voltear(int i, int k) async {
-    if (_clicks < 2) {
-      _imagenes[i] = AssetImage('assets/aztecas_game/$k.jpg');
-      setState(() {});
-      _segundo = _primero;
-      _primero = k;
+    if (_clicks < 2 && _imagenes[i] == AssetImage('assets/aztecas_icon.jpg')) {
       _indexB = _indexA;
       _indexA = i;
-      if (_indexB != _indexA) {
-        //
+      if (_indexB != _indexA &&
+          _imagenes[_indexA] == AssetImage('assets/aztecas_icon.jpg') &&
+          _imagenes[_indexA] == AssetImage('assets/aztecas_icon.jpg')) {
+        _imagenes[i] = AssetImage('assets/aztecas_game/$k.jpg');
         _clicks++;
+        _segundo = _primero;
+        _primero = k;
+        setState(() {});
         if (_clicks == 2 && _primero == _segundo) {
           _showAlert(context);
           _primero = -1;
