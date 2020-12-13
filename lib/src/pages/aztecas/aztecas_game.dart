@@ -149,5 +149,10 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
     setState(() {});
   }
 
-  void _reiniciar() {}
+  void _reiniciar() {
+    for (int i = 0; i < _imagenes.length; i++) {
+      _imagenes[i] = AssetImage('assets/aztecas_icon.jpg');
+    }
+    setState(() {});
+  }
 }
