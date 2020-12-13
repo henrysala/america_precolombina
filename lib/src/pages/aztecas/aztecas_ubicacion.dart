@@ -14,9 +14,10 @@ class AztecasUbicacionPage extends StatelessWidget {
         body: _cardList());
   }
 
+//trae la informacion del provider
   Widget _cardList() {
     return FutureBuilder(
-      future: cardProviderUbicacionAztecas.loadData(),
+      future: provider.loadData('data/aztecas_info.json', 'ubicacion'),
       initialData: [],
       builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
         return ListView(

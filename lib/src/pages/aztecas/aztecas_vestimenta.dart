@@ -14,9 +14,10 @@ class AztecasVestimentaPage extends StatelessWidget {
         body: _cardList());
   }
 
+//trae la informacion del provider
   Widget _cardList() {
     return FutureBuilder(
-      future: cardProviderVestimentaAztecas.loadData(),
+      future: provider.loadData('data/aztecas_info.json', 'vestimenta'),
       initialData: [],
       builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
         return ListView(

@@ -15,7 +15,7 @@ class AztecasMitologiaPage extends StatelessWidget {
 
   Widget _cardList() {
     return FutureBuilder(
-      future: cardProviderMitologiaAztecas.loadData(),
+      future: provider.loadData('data/aztecas_info.json', 'mitologia'),
       initialData: [],
       builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
         return ListView(

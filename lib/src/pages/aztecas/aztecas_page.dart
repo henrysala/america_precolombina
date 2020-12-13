@@ -18,7 +18,7 @@ class AztecasPage extends StatelessWidget {
 
   Widget _list() {
     return FutureBuilder(
-      future: menuProviderAztecas.loadData(),
+      future: provider.loadData('data/aztecas_info.json', 'rutasAztecas'),
       initialData: [],
       builder: (BuildContext context, AsyncSnapshot<List<dynamic>> snapshot) {
         return ListView(
