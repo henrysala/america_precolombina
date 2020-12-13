@@ -95,7 +95,7 @@
             "imagen"    : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Collared.jpg/200px-Collared.jpg"
         },
         {   "titulo"    : "Tlatlacotin",
-            "texto"     : "\nLos tlatlacotin formaban el estrato social mas bajo, compuesto generalmente por los PRISIONEROS DE GUERRA que eran condenados o desterrados. A cambio de casa y comida debían ser obedientes a sus amos. Aunque eso no significaba que eran esclavos, pues podían recuperar su libertad y poseer bienes..",
+            "texto"     : "\nLos tlatlacotin formaban el estrato social mas bajo, compuesto generalmente por los PRISIONEROS DE GUERRA que eran condenados o desterrados. A cambio de casa y comida debían ser obedientes a sus amos. Aunque eso no significaba que eran esclavos, pues podían recuperar su libertad y poseer bienes.",
             "imagen"    : "https://i.pinimg.com/originals/bc/73/9f/bc739f61e86bad84ede1a053df6e09d3.jpg"
         }
     ],
@@ -185,6 +185,38 @@
             "titulo"    : "Mito: Quetzalcóatl y el maiz",
             "texto"     : "Cuenta la leyenda que antes de la llegada del maíz, el pueblo solamente comía raíces y animales que cazaban. Sin embargo, se sospechaba sobre la existencia de una planta dorada, que se escondía detrás de unas altas montañas que enmarcaban la ciudad. \nLos indígenas pedían a los dioses la separación de las montañas, para que se abriera el paso y los recolectores pudieran ir a recoger los granos de maíz. No obstante, los dioses no pudieron lograrlo. Es por esto que los aztecas optaron por rezarle a Quetzalcóatl, la deidad más poderosa de la cultura mesoamericana. \nEl dios escuchó las plegarias de su pueblo, y les prometió que les traería aquel preciado alimento. Ni siquiera intentó separar las montañas, mejor utilizó su sabiduría para conseguir el maíz. Observó bien las colinas, y vio una hormiga roja que descendía con un grano de maíz sobre su espalda. \nSe acercó al insecto para interrogarlo y descubrir de dónde había sacado el codiciado grano. Luego de conversar con ella, la hormiga accedió a decirle todo, entonces Quetzalcóatl se convirtió en una hormiga negra para que su nueva amiga lo guiara hasta el lugar donde se escondía el alimento dorado que tanto pedían los aztecas. \nLa leyenda cuenta que aquella travesía estuvo llena de dificultades y duró varios días, pero el dios, siempre pensando en su pueblo, logró superar todo reto. Finalmente llegaron las hormigas a donde se erigían las plantas del maíz, tomó un grano maduro con su boca y regresó con su pueblo. Al llegar, los aztecas se regocijaron y sembraron aquel tesoro. Y cuando éste dio fruto, la civilización comenzó a proliferar. Se volvieron más fuertes y dieron inicio a la construcción de una ciudad. Desde aquel momento, los aztecas veneraron sin dudar al generoso dios Quetzalcóatl, el amigo de los hombres que les obsequió el maíz.",
             "imagen"    : "https://3.bp.blogspot.com/-tDRT-7y1RWo/WOjypvWbFBI/AAAAAAAAARM/j-fOH58FDT4NsFj9VathoS1I96ItWbKxQCEw/s1600/Image1165.gif"
+        }
+    ],
+    "juego" : [
+        {
+            "titulo"    : "Tlatlacotin",
+            "imagen"   : "assets/aztecas_game/1.jpg",
+            "descripcion"   : "Los tlatlacotin formaban el estrato social mas bajo, compuesto generalmente por los PRISIONEROS DE GUERRA que eran condenados o desterrados. A cambio de casa y comida debían ser obedientes a sus amos. Aunque eso no significaba que eran esclavos, pues podían recuperar su libertad y poseer bienes."
+        },
+        {
+            "titulo"    : "Pochtecas",
+            "imagen"   : "assets/aztecas_game/2.jpg",
+            "descripcion"   : "Su labor era importantísima pues gracias a ella los mercados (como el de Tlatelolco) proveeían de productos traídos incluso de Guatemala."
+        },
+        {
+            "titulo"    : "Vestido militar",
+            "imagen"   : "assets/aztecas_game/3.jpg",
+            "descripcion"   : "En la época prehispánica, los guerreros usaban básicamente la misma vestimenta sencilla, el maxtlatl y tilmatli, aunque con algunos arreglos, ya que con la misma tela del maxtlatl o con un pedazo de tela extra hacían una especie de concha para proteger sus genitales, la cual era además adornada."
+        },
+        {
+            "titulo"    : "Huey tlatoani",
+            "imagen"   : "assets/aztecas_game/4.jpg",
+            "descripcion"   : "La palabra viene del náhuatl Huēyi (grande) Tlahtoāni (orador) y significa gran gobernante, gran orador."
+        },
+        {
+            "titulo"    : "Cuauhtémoc",
+            "imagen"   : "assets/aztecas_game/5.jpg",
+            "descripcion"   : "Último emperador azteca, llamado por los españoles Guatimocín."
+        },
+        {
+            "titulo"    : "Teotihuacán",
+            "imagen"   : "assets/aztecas_game/6.jpg",
+            "descripcion"   : "Es uno de los mayores complejos arqueológicos de México, ubicado a unos 50 km. de la capital."
         }
     ]
 }
