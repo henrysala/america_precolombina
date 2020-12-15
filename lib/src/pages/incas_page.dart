@@ -18,7 +18,7 @@ class IncasPage extends StatelessWidget {
           const SizedBox(height: 15),
           _createButton('Mitología', () {Navigator.pushNamed(context, 'incas/mitologia');}),
           const SizedBox(height: 15),
-          _createButton('Reto', () {}),
+          _createButton('Reto', () {Navigator.pushNamed(context, 'incas/reto');}),
         ],)
       ),
     );
