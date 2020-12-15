@@ -64,7 +64,7 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
     }
   }
 
-  List<int> desordenados = [4, 5, 3, 1, 2, 6, 4, 5, 3, 1, 2, 6];
+  List<int> desordenados = [1, 6, 2, 5, 3, 4, 4, 5, 3, 1, 2, 6];
 
   void _showAlert(BuildContext context, int k) async {
     List<dynamic> info = await llenarInfo();
