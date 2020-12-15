@@ -98,5 +98,37 @@
             "texto":  "\nEl Popol Vuh es sin lugar a dudas el más importante de los textos mayas que se conservan. Se distingue no sólo por su extraordinario contenido histórico y mitológico, sino por sus cualidades literarias, las que permiten que se le pueda colocar a la altura de grandes obras épicas como el Ramayana hindú o la Ilíada y la Odisea griegas.El contenido se puede dividir en los siguientes apartados: \nLa creación. En la primera parte del Popol Vuh, los dioses hacen surgir del mar primordial los valles y las montañas, y crean las plantas y los animales. Deciden crear a seres que los veneren y les hagan ofrendas. Los tres primeros intentos fracasan; en el primero las criaturas son los animales de cuatro patas y las aves, pero como son incapaces de hablar deciden hacer un segundo intento. En éste forman una criatura de lodo, pero ésta se disuelve al mojarse. En el tercer intento hacen hombres de madera, pero éstos son incapaces de venerarlos, por lo que deciden castigar su soberbia con un huracán y provocan que sus animales, sus herramientas y las piedras de sus casas se vuelvan contra ellos; los monos son los descendientes de aquellos hombres de madera. En el cuarto intento logran su propósito y crean al hombre, al que forman con maíz. Estos hombres, que saben cumplir sus obligaciones con sus creadores, son capaces de ver todo, en el tiempo y en el espacio, por lo que los dioses deciden nublar su visión. Ésta es la humanidad que ahora puebla la tierra.",
             "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnUF1ZWUNfUkZFl3xGe3KqT5-wmkU7V7dsPQ&usqp=CAU"
         }
+    ],
+    "juego" : [
+        {
+            "titulo"    : "Chaac",
+            "imagen"   : "assets/mayas_game/1.jpg",
+            "descripcion"   : "Chaac es otras de las principales figuras en el panteón maya; está asociado al agua, los relámpagos y la lluvia, por lo que se invoca para obtener buenas cosechas.\nEn la cultura maya era representado como un hombre viejo, con rasgos de reptil y una trompa (o nariz) larga inclinada hacia arriba."
+        },
+        {
+            "titulo"    : "Sacerdotes",
+            "imagen"   : "assets/mayas_game/2.jpg",
+            "descripcion"   : "Sacerdotes o Ahau Kan, poseían los conocimientos relativos a la astronomía maya, fundamental para el desarrollo de la economía basada en la agricultura. Igualmente dominaban los secretos del calendario maya, escribían los códices y organizaban los rituales religiosos en los templos. "
+        },
+        {
+            "titulo"    : "Chichén Itzá",
+            "imagen"   : "assets/mayas_game/3.jpg",
+            "descripcion"   : "La legendaria ciudad maya de Chichén Itzá, Patrimonio de la Humanidad declarada por la UNESCO desde 1988 y Maravilla del Mundo desde 2007, sobresalió como centro cultural y político de la vieja civilización maya y fue uno de los asentamientos más extensos del centro-norte de la península de Yucatán."
+        },
+        {
+            "titulo"    : "Hunab ku",
+            "imagen"   : "assets/mayas_game/4.jpg",
+            "descripcion"   : "Es el dios más importante de la cultura maya, padre de todos los dioses, es el único vivo y verdadero, y de él nacen todas las cosas. Hunab Ku, o kolop u wich k’in, como se conocía en esta civilización, es una figura incorpórea, por lo que no puede representarse en la cultura."
+        },
+        {
+            "titulo"    : "El Popol Vuh",
+            "imagen"   : "assets/mayas_game/5.jpg",
+            "descripcion"   : "El Popol Vuh es sin lugar a dudas el más importante de los textos mayas que se conservan. Se distingue no sólo por su extraordinario contenido histórico y mitológico, sino por sus cualidades literarias, las que permiten que se le pueda colocar a la altura de grandes obras épicas como el Ramayana hindú o la Ilíada y la Odisea griegas."
+        },
+        {
+            "titulo"    : "Artesanos",
+            "imagen"   : "assets/mayas_game/6.jpg",
+            "descripcion"   : "Artesanos y campesinos o Ah Chembal Uinicoob, siendo la clase inferior de la cultura maya, se dedicaban a la agricultura, construcción de obras públicas, y labores artesanales."
+        }
     ]
 }

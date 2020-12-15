@@ -12,6 +12,7 @@ import 'package:america_precolombina/src/pages/mayas_page.dart';
 import 'package:america_precolombina/src/pages/mayas/mayas_ubicacion.dart';
 import 'package:america_precolombina/src/pages/mayas/mayas_mitologia.dart';
 import 'package:america_precolombina/src/pages/mayas/mayas_estructura.dart';
+import 'package:america_precolombina/src/pages/mayas/mayas_game.dart';
 import 'package:america_precolombina/src/pages/aztecas/aztecas_page.dart';
 import 'package:america_precolombina/src/pages/aztecas/aztecas_ubicacion.dart';
 import 'package:america_precolombina/src/pages/aztecas/aztecas_estructura.dart';
@@ -32,6 +33,7 @@ Map<String, WidgetBuilder> getAppRoutes() {
     'mayasUbicacion': (BuildContext context) => MayasUbicacionPage(),
     'mayasEstructura': (BuildContext context) => MayasEstructuraPage(),
     'mayasMitologia': (BuildContext context) => MayasMitologiaPage(),
+    'mayasReto': (BuildContext context) => MayasGamePage(),
     'aztecasUbicacion': (BuildContext context) => AztecasUbicacionPage(),
     'aztecasEstructura': (BuildContext context) => AztecasEstructuraPage(),
     'aztecasVestimenta': (BuildContext context) => AztecasVestimentaPage(),
