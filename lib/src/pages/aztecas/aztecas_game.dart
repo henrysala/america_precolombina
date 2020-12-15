@@ -16,7 +16,7 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
   int _indexA = -1;
   int _indexB = -2;
 
-  //tuve que crear este arreglo ya que necesito que al principio se muestren todas las imagenes tapadas
+  //tuve que crear este arreglo ya que de aquí se tomaran las imágenes para crear la cuadricula
   List<AssetImage> _imagenes = [
     AssetImage('assets/aztecas_icon.jpg'),
     AssetImage('assets/aztecas_icon.jpg'),
@@ -145,12 +145,10 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
           _clicks = 0;
         } else if (_clicks == 2 && _primero != _segundo) {
           await tapando();
-          //_clicks = 0;
           _primero = -1;
           _segundo = -2;
           _indexB = -2;
           _indexA = -1;
-          //
         }
       }
     } else if (_clicks < 2) {
