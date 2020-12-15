@@ -1,7 +1,8 @@
 import 'dart:async';
 import 'dart:math';
-import 'package:america_precolombina/src/providers/menu_provider.dart';
 import 'package:flutter/material.dart';
+//Propias
+import 'package:america_precolombina/src/providers/menu_provider.dart';
 
 class AztecasJuegoPage extends StatefulWidget {
   @override
@@ -15,6 +16,7 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
   int _indexA = -1;
   int _indexB = -2;
 
+  //tuve que crear este arreglo ya que necesito que al principio se muestren todas las imagenes tapadas
   List<AssetImage> _imagenes = [
     AssetImage('assets/aztecas_icon.jpg'),
     AssetImage('assets/aztecas_icon.jpg'),
@@ -47,12 +49,10 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
     );
   }
 
-  Future<List<dynamic>> llenarInfo() async {
-    List<dynamic> info =
-        await provider.loadData('data/aztecas_info.json', 'juego');
-    return info;
-  }
+  //este array tendra el orden en el que se mostraran las imagenes
+  List<int> desordenados = [1, 6, 2, 5, 3, 4, 4, 5, 3, 1, 2, 6];
 
+  //esta función cambia el orden de las imagenes en el array
   void _desordenar(List<int> arreglo) {
     var random = new Random();
     for (var i = arreglo.length - 1; i > 0; i--) {
@@ -64,8 +64,14 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
     }
   }
 
-  List<int> desordenados = [1, 6, 2, 5, 3, 4, 4, 5, 3, 1, 2, 6];
+  //se obtiene la informacion que se mostrara en las alertas
+  Future<List<dynamic>> llenarInfo() async {
+    List<dynamic> info =
+        await provider.loadData('data/aztecas_info.json', 'juego');
+    return info;
+  }
 
+  //muestra una alerta con informacion de la imagen
   void _showAlert(BuildContext context, int k) async {
     List<dynamic> info = await llenarInfo();
 
@@ -91,6 +97,7 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
         });
   }
 
+  //Crea la grilla
   Widget _buildGrid() => GridView.extent(
         maxCrossAxisExtent: 150,
         padding: const EdgeInsets.all(4),
@@ -99,6 +106,7 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
         children: _buildGridTileList(12, desordenados),
       );
 
+  //genera la estructura de la cuadricula y las imagenes que la componen
   List<Container> _buildGridTileList(int count, List<int> arr) => List.generate(
         count,
         (i) => Container(
@@ -116,6 +124,7 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
             )),
       );
 
+  //esta funcion hace que las imagenes se "destapen" al clikearlas
   void _voltear(int i, int k) async {
     if (_clicks < 2 && _imagenes[i] == AssetImage('assets/aztecas_icon.jpg')) {
       _indexB = _indexA;
@@ -136,7 +145,7 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
           _clicks = 0;
         } else if (_clicks == 2 && _primero != _segundo) {
           await tapando();
-          _clicks = 0;
+          //_clicks = 0;
           _primero = -1;
           _segundo = -2;
           _indexB = -2;
@@ -144,21 +153,25 @@ class _AztecasJuegoPageState extends State<AztecasJuegoPage> {
           //
         }
       }
-    } else {
+    } else if (_clicks < 2) {
       _showAlert(context, k);
     }
   }
 
+  //demora un segundo que se vuelvan a tapar las imagenes
   Future<void> tapando() async {
     return Future.delayed(Duration(seconds: 1), () => {tapar()});
   }
 
+  //vuelve a tapar las imagenes si no son pareja
   void tapar() {
     _imagenes[_indexA] = AssetImage('assets/aztecas_icon.jpg');
     _imagenes[_indexB] = AssetImage('assets/aztecas_icon.jpg');
+    _clicks = 0;
     setState(() {});
   }
 
+  //vuelve a tapar todas las imagenes y cambia el orden
   void _reiniciar() {
     for (int i = 0; i < _imagenes.length; i++) {
       _imagenes[i] = AssetImage('assets/aztecas_icon.jpg');
